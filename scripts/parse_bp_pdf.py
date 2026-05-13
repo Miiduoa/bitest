@@ -148,7 +148,7 @@ def main() -> None:
     chapters, questions = parse_questions(full)
 
     out = {"source": pdf_path.name, "total": len(questions), "chapters": chapters, "questions": questions}
-    out_path = root / "questions.json"
+    out_path = root / "web" / "questions.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"寫入 {out_path}，共 {len(questions)} 題，{len(chapters)} 章")

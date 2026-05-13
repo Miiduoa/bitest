@@ -1,2 +1,0 @@
-# 僅靜態檔案上線；解析腳本留在 repo 但不上傳至 Vercel
-scripts/
