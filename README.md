@@ -6,9 +6,12 @@
 - **Vercel**：將此 Repo 連結並部署；專案根目錄即為靜態網站（`index.html`）。  
   詳見 [Vercel 官方說明](https://vercel.com/docs/getting-started-with-vercel/import)。
 
-## 題庫
+靜態檔案根目錄為 `index.html`。Python 僅用於本機重新從 PDF 產生題庫：
 
-`questions.json` 可由 `scripts/parse_bp_pdf.py` 依 PDF 重新產製。
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt
+.venv/bin/python scripts/parse_bp_pdf.py /路徑/題庫.pdf
+```
 
 ## License
 
