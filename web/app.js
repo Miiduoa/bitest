@@ -164,6 +164,7 @@
       row.append(span);
       wrap.appendChild(row);
     });
+    updatePoolHint();
   }
 
   function selectedChapterIds() {
@@ -174,6 +175,49 @@
     const cids = new Set(selectedChapterIds());
     if (cids.size === 0) return [];
     return bank.questions.filter((q) => cids.has(q.chapterId)).map((q) => q.id);
+  }
+
+  /** 「題庫範圍 + 勾選章節」得到之題數（不含題數上限，因上限在開始練習後才套用） */
+  function poolSizeForCurrentSettings() {
+    if (!bank) return 0;
+    const scope = requireEl("#scopeSelect").value;
+    if (scope === "wrong") {
+      const w = loadWrongSet();
+      const setValid = new Set(bank.questions.map((/** @type {{ id: number }} */ q) => q.id));
+      return w.filter((id) => setValid.has(id)).length;
+    }
+    return collectFilteredQuestions().length;
+  }
+
+  function updatePoolHint() {
+    const hint = qs("#bankPoolHint");
+    if (!hint || !bank) return;
+    const total = bank.questions.length;
+    const lastNum = bank.questions[total - 1]?.id ?? total;
+    const pool = poolSizeForCurrentSettings();
+    const refNote = total === 260 ? "與 BI 規劃師參考題型 PDF 標示題數相符。" : "";
+    hint.textContent = `已載入全題庫 ${total} 題（題號 1～${lastNum}）。${refNote}依左側「題庫範圍／章節」目前可抽到 ${pool} 題。若要一口氣練這 ${total} 題：請選「全部已選章節」、章節全選、題數上限留空。`;
+  }
+
+  function validateBankIntegrity() {
+    const len = bank.questions.length;
+    const t = Number(bank.total);
+    /** @type {string[]} */
+    const problems = [];
+    if (!Number.isFinite(t) || t !== len) {
+      problems.push(`JSON 標示 total=${bank.total}，實際題目筆數=${len}`);
+    }
+    for (let i = 0; i < len; i += 1) {
+      if (bank.questions[i].id !== i + 1) {
+        problems.push(`題號順序應為連續 1…N，於第 ${i + 1} 筆不符`);
+        break;
+      }
+    }
+    if (problems.length) {
+      const msg = problems.join("\n");
+      console.error(msg);
+      alert(`題庫檔異常：\n${msg}\n\n請在本機重新執行 scripts/parse_bp_pdf.py 產製 web/questions.json 後再上傳部署。`);
+    }
   }
 
   function shuffle(arr) {
@@ -659,6 +703,7 @@
     alert("已合併匯入紀錄與統計（事件已去重並截長）。");
     renderStatsLine();
     renderChapterChart();
+    updatePoolHint();
   }
 
   /** @param {{ n: number, correct: number }} o */
@@ -688,18 +733,24 @@
       qsa("#chapterList input[type=checkbox]").forEach((c) => {
         c.checked = true;
       });
+      updatePoolHint();
     });
 
     requireEl("#btnClearCh").addEventListener("click", () => {
       qsa("#chapterList input[type=checkbox]").forEach((c) => {
         c.checked = false;
       });
+      updatePoolHint();
     });
+
+    requireEl("#chapterList").addEventListener("change", () => updatePoolHint());
+    requireEl("#scopeSelect").addEventListener("change", () => updatePoolHint());
 
     requireEl("#btnClearWrong").addEventListener("click", () => {
       if (confirm("確定清空錯題本？")) {
         saveWrongSet([]);
         renderStatsLine();
+        updatePoolHint();
       }
     });
 
@@ -782,10 +833,15 @@
       throw new Error("無法載入 questions.json。若為本機開發請執行 python3 scripts/serve.py。");
     bank = await res.json();
 
+    validateBankIntegrity();
     buildChapterList();
     renderStatsLine();
 
-    requireEl("#loadMeta").textContent = `載入題庫：${bank.source}｜${bank.total} 題`;
+    const wHint = qs("#welcomeTotalHint");
+    if (wHint) wHint.textContent = String(bank.total);
+
+    const lastId = bank.questions[bank.questions.length - 1]?.id ?? bank.total;
+    requireEl("#loadMeta").textContent = `已載入題庫 ${bank.total} 題（題號 1～${lastId}）｜${bank.source}`;
 
     /** 等 CDN Chart 載完（與 defer 腳本次序相容） */
     if (typeof Chart === "undefined") {

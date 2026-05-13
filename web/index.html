@@ -26,6 +26,9 @@
     <div class="layout" id="appLayout">
       <aside class="panel" id="sideSetup">
         <h2>出題設定</h2>
+        <p id="bankPoolHint" class="bank-pool-hint" aria-live="polite">
+          題庫載入中…
+        </p>
 
         <div class="field-group">
           <span class="lbl">題庫範圍</span>
@@ -99,7 +102,10 @@
 
       <main class="panel-main">
         <div data-screen="setup" hidden>
-          <p class="welcome-hint">完成左側設定後按「開始」。交卷摘要會顯示於此區。</p>
+          <p class="welcome-hint">
+            題庫應為參考题型 <strong id="welcomeTotalHint">260</strong> 題（題號 1–260）。請在左側確認章節勾選、「題數上限」留空並選「全部已選章節」，即可一次練完整庫。
+            交卷摘要會顯示於此區。
+          </p>
           <section id="examSummary" aria-live="polite"></section>
         </div>
 
