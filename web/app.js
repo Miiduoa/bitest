@@ -241,6 +241,10 @@
     const canvas = qs("#chapterChart");
     if (!canvas || !bank || typeof Chart === "undefined") return;
 
+    const rootStyle = getComputedStyle(document.documentElement);
+    const tp = (/** @type string */ k, /** @type string */ fb) =>
+      rootStyle.getPropertyValue(k).trim() || fb;
+
     const stats = loadChapterStats();
     const labels = bank.chapters.map((ch) => `第${ch.id}章`);
     const data = bank.chapters.map((ch) => {
@@ -250,11 +254,16 @@
       if (!n) return null;
       return Math.round((c / n) * 100);
     });
+    const chartTick = tp("--chart-tick", "#8e8e93");
+    const chartGrid = tp("--chart-grid", "rgba(60,60,67,0.12)");
+    const chartBar = tp("--chart-bar", "rgba(0,122,255,0.85)");
+    const chartBarEmpty = tp("--chart-bar-empty", "rgba(60,60,67,0.16)");
+
     const colors = bank.chapters.map((ch) => {
       const sk = stats[String(ch.id)];
       const n = sk && typeof sk === "object" ? Number(sk.n) || 0 : 0;
-      if (!n) return "rgba(139, 151, 171, 0.35)";
-      return "rgba(61, 139, 253, 0.82)";
+      if (!n) return chartBarEmpty;
+      return chartBar;
     });
 
     /** @type {any} */
@@ -262,7 +271,7 @@
       label: "正確率 （%）",
       data,
       backgroundColor: colors,
-      borderRadius: 6,
+      borderRadius: 10,
       borderSkipped: false,
     };
 
@@ -284,11 +293,11 @@
           y: {
             beginAtZero: true,
             max: 100,
-            ticks: { callback: (v) => `${v}%`, color: "#8b97ab" },
-            grid: { color: "rgba(255,255,255,0.06)" },
+            ticks: { callback: (v) => `${v}%`, color: chartTick },
+            grid: { color: chartGrid },
           },
           x: {
-            ticks: { color: "#8b97ab", maxRotation: 50 },
+            ticks: { color: chartTick, maxRotation: 50 },
             grid: { display: false },
           },
         },
@@ -383,10 +392,7 @@
       const q = byId(qid);
       const row = document.createElement("button");
       row.type = "button";
-      row.className = "btn btn-ghost";
-      row.style.textAlign = "left";
-      row.style.width = "100%";
-      row.style.marginBottom = "8px";
+      row.className = "btn btn-ghost exam-list-row";
       const mark = examAnswers[qid] ? "●" : "○";
       row.innerHTML = `${mark} <strong>#${qid}</strong> ｜第 ${q.chapterId} 章`;
       row.addEventListener("click", () => {
@@ -425,10 +431,7 @@
     const qid = session[idx];
     const q = byId(qid);
 
-    requireEl("#quizTitle").textContent =
-      mode === "exam"
-        ? "模擬考作答"
-        : "練習模式（送出選項後立即對答案）";
+    requireEl("#quizTitle").textContent = mode === "exam" ? "模擬考" : "練習";
 
     const optName = `opt-${qid}`;
     const visible = optionTextVisible(qid);
@@ -439,7 +442,7 @@
 
     area.innerHTML = `
       <article class="q-card" data-qid="${qid}">
-        <div class="q-stem-num">題號 ${qid} · 第 ${q.chapterId} 章 ${escapeHtml(q.chapterTitle)}${roteMode ? " · <span style='color:var(--muted)'>背題模式</span>" : ""}</div>
+        <div class="q-stem-num">題號 ${qid} · 第 ${q.chapterId} 章 ${escapeHtml(q.chapterTitle)}${roteMode ? ` · <span class="q-stem-badge">背題</span>` : ""}</div>
         <p class="q-stem">${escapeHtml(q.stem)}</p>
         ${revealRow}
         <div class="options${roteMode && !visible ? " options-masked" : ""}">

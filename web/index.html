@@ -2,20 +2,22 @@
 <html lang="zh-Hant">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BI 規劃師｜刷題系統</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+TC:wght@400;600&display=swap"
-      rel="stylesheet"
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
+    <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>BI 規劃師｜刷題</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="app-header">
       <div>
-        <h1 class="app-title">BI 規劃師參考題型｜刷題系統</h1>
+        <h1 class="app-title">刷題</h1>
         <p class="app-sub" id="loadMeta">載入題庫中…</p>
       </div>
       <div class="meta-pill">
@@ -25,103 +27,108 @@
 
     <div class="layout" id="appLayout">
       <aside class="panel" id="sideSetup">
-        <h2>出題設定</h2>
-        <p id="bankPoolHint" class="bank-pool-hint" aria-live="polite">
-          題庫載入中…
-        </p>
+        <h2>出題</h2>
 
-        <div class="field-group">
-          <span class="lbl">題庫範圍</span>
-          <select id="scopeSelect">
-            <option value="all">全部已選章節</option>
-            <option value="wrong">僅錯題本</option>
-          </select>
+        <div class="ios-group">
+          <p id="bankPoolHint" class="bank-pool-hint" aria-live="polite">題庫載入中…</p>
+
+          <div class="field-group">
+            <span class="lbl">題庫範圍</span>
+            <select id="scopeSelect">
+              <option value="all">全部已選章節</option>
+              <option value="wrong">僅錯題本</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <span class="lbl">模式</span>
+            <select id="modeSelect">
+              <option value="practice">練習・答完即對答案</option>
+              <option value="exam">模擬考・交卷後計分</option>
+            </select>
+          </div>
+
+          <label class="check-row">
+            <input type="checkbox" id="roteMode" />
+            <span>背題：先隱藏選項文字</span>
+          </label>
+
+          <div class="field-group">
+            <span class="lbl">順序</span>
+            <select id="shuffleSelect">
+              <option value="no">依題號</option>
+              <option value="yes">隨機洗牌</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label class="lbl" for="limitInput">題數上限（留空＝全出）</label>
+            <input class="input-num" id="limitInput" type="number" min="1" placeholder="例：40" />
+          </div>
         </div>
 
-        <div class="field-group">
-          <span class="lbl">練習模式</span>
-          <select id="modeSelect">
-            <option value="practice">立即對答案（練習）</option>
-            <option value="exam">模擬考（先作答、題目清單檢視、最後交卷）</option>
-          </select>
-        </div>
-
-        <label class="check-row">
-          <input type="checkbox" id="roteMode" />
-          <span>背題模式：先隱藏選項文字（可隨題「顯示選項」）</span>
-        </label>
-
-        <div class="field-group">
-          <span class="lbl">順序</span>
-          <select id="shuffleSelect">
-            <option value="no">依題號</option>
-            <option value="yes">隨機洗牌</option>
-          </select>
-        </div>
-
-        <div class="field-group">
-          <label class="lbl" for="limitInput">題數上限（留空＝不加限制）</label>
-          <input class="input-num" id="limitInput" type="number" min="1" placeholder="例如 40" />
-        </div>
-
-        <div class="field-group">
-          <span class="lbl">章節</span>
-          <div class="btns-row" style="margin-bottom: 8px">
+        <div class="ios-group ios-group--flush">
+          <span class="lbl chapter-heading">章節</span>
+          <div class="btns-row chapter-toolbar">
             <button type="button" class="btn btn-ghost" id="btnSelectAllCh">全選</button>
             <button type="button" class="btn btn-ghost" id="btnClearCh">全不選</button>
-            <button type="button" class="btn btn-ghost" id="btnClearWrong">清空錯題本</button>
+            <button type="button" class="btn btn-danger" id="btnClearWrong">清空錯題本</button>
           </div>
           <div id="chapterList" class="chapter-list" aria-label="章節清單"></div>
         </div>
 
-        <button type="button" class="btn btn-primary" id="btnStart" style="width: 100%">開始</button>
+        <button type="button" class="btn btn-primary" id="btnStart">開始</button>
 
         <h2>章節正確率</h2>
-        <p class="chart-caption">以下為您在瀏覽器累計作答之章節正確率；尚無資料之章節不顯示長條。</p>
-        <div class="chart-wrap">
-          <canvas id="chapterChart" aria-label="章節正確率長條圖"></canvas>
+        <div class="ios-group">
+          <p class="chart-caption">
+            依裝置內作答累計（尚無紀錄的章節顯示較淡）。
+          </p>
+          <div class="chart-wrap">
+            <canvas id="chapterChart" aria-label="章節正確率長條圖"></canvas>
+          </div>
         </div>
 
-        <h2>作答紀錄</h2>
-        <p class="chart-caption">
-          匯出為 JSON（含每一題作答事件、錯題本與統計）；可備份後再於他裝置「匯入」合併。
-        </p>
-        <div class="btns-row">
-          <button type="button" class="btn btn-ghost" id="btnExport">匯出 JSON</button>
-          <button type="button" class="btn btn-ghost" id="btnImportPick">匯入合併</button>
-          <button type="button" class="btn btn-danger" id="btnResetAll">重置本機資料</button>
-          <input type="file" id="importFile" accept=".json,application/json" hidden />
+        <h2>備份紀錄</h2>
+        <div class="ios-group">
+          <p class="chart-caption">
+            匯出 JSON 可作備份；匯入會與現有紀錄合併。
+          </p>
+          <div class="btns-row">
+            <button type="button" class="btn btn-ghost" id="btnExport">匯出</button>
+            <button type="button" class="btn btn-ghost" id="btnImportPick">匯入</button>
+            <button type="button" class="btn btn-danger" id="btnResetAll">重置本機資料</button>
+            <input type="file" id="importFile" accept=".json,application/json" hidden />
+          </div>
         </div>
 
         <p class="footer-hint">
-          本機開發可執行 <code>python3 scripts/serve.py</code>。部署至
-          <a href="https://vercel.com" rel="noopener noreferrer">Vercel</a>
-          時將專案根目錄設為本站即可。（左右鍵換題需在選項未被聚焦時）
+          本機預覽：<code>python3 scripts/serve.py</code><br />
+          部署請參考 README；左右鍵換題請先讓輸入焦點離開選項。
         </p>
       </aside>
 
       <main class="panel-main">
         <div data-screen="setup" hidden>
           <p class="welcome-hint">
-            題庫應為參考题型 <strong id="welcomeTotalHint">260</strong> 題（題號 1–260）。請在左側確認章節勾選、「題數上限」留空並選「全部已選章節」，即可一次練完整庫。
-            交卷摘要會顯示於此區。
+            參考题型共 <strong id="welcomeTotalHint">260</strong> 題。要一次練滿請勾選<strong>全部章節</strong>、範圍選「全部已選章節」、題數<strong>上限留空</strong>。
           </p>
           <section id="examSummary" aria-live="polite"></section>
         </div>
 
         <div data-screen="exam">
-          <h2 style="margin: 0 0 12px; font-size: 1rem; color: var(--muted)">模擬考｜作答清單</h2>
+          <h2 class="ios-sheet-title">模擬考・題目總覽</h2>
           <p class="meta-pill" id="examProgress"></p>
-          <div id="examList" style="margin-top: 12px"></div>
-          <div class="toolbar" style="margin-top: 20px">
-            <button type="button" class="btn btn-primary" id="btnSubmitExam">交卷並計分</button>
-            <button type="button" class="btn btn-ghost" id="btnHomeFromExam">回到首頁</button>
+          <div id="examList" class="exam-list"></div>
+          <div class="toolbar toolbar--exam">
+            <button type="button" class="btn btn-primary btn--inline" id="btnSubmitExam">交卷計分</button>
+            <button type="button" class="btn btn-ghost btn--inline" id="btnHomeFromExam">回首頁</button>
           </div>
         </div>
 
         <div data-screen="quiz">
-          <div class="toolbar">
-            <strong id="quizTitle">練習模式</strong>
+          <div class="toolbar toolbar--quiz">
+            <strong id="quizTitle">練習</strong>
             <span class="meta-pill" id="toolbarMeta"></span>
             <div class="progress-track" aria-hidden="true">
               <div class="progress-fill" id="progressFill" style="width: 0%"></div>
@@ -130,17 +137,17 @@
 
           <section id="quizArea" aria-live="polite"></section>
 
-          <div class="btns-row" id="practiceNav">
+          <div class="btns-row quiz-nav quiz-nav--practice" id="practiceNav">
             <button type="button" class="btn btn-ghost" id="btnPrev">上一題</button>
-            <button type="button" class="btn btn-primary" id="btnNext">下一題</button>
+            <button type="button" class="btn btn-primary btn--pill" id="btnNext">下一題</button>
             <button type="button" class="btn btn-ghost" id="btnHome">回首頁</button>
           </div>
 
-          <div class="btns-row" id="examNav" hidden>
+          <div class="btns-row quiz-nav quiz-nav--exam" id="examNav" hidden>
             <button type="button" class="btn btn-ghost" id="btnPrevExam">上一題</button>
-            <button type="button" class="btn btn-primary" id="btnNextExam">下一題</button>
-            <button type="button" class="btn btn-ghost" id="btnExamBoard">題目總覽</button>
-            <button type="button" class="btn btn-primary" id="btnSubmitExamInline">交卷並計分</button>
+            <button type="button" class="btn btn-primary btn--pill" id="btnNextExam">下一題</button>
+            <button type="button" class="btn btn-ghost" id="btnExamBoard">總覽</button>
+            <button type="button" class="btn btn-primary btn--inline" id="btnSubmitExamInline">交卷</button>
           </div>
         </div>
       </main>
