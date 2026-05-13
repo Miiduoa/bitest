@@ -1,0 +1,6592 @@
+{
+  "source": "BP_Reference260_20220401.pdf",
+  "total": 260,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "大數據時代的商業智慧簡介",
+      "questionCountPdf": 23,
+      "questionCountParsed": 23
+    },
+    {
+      "id": 2,
+      "title": "BI專案生命週期",
+      "questionCountPdf": 19,
+      "questionCountParsed": 19
+    },
+    {
+      "id": 3,
+      "title": "維度模型化介紹",
+      "questionCountPdf": 27,
+      "questionCountParsed": 27
+    },
+    {
+      "id": 4,
+      "title": "立方體資料呈現及資料建置轉換",
+      "questionCountPdf": 27,
+      "questionCountParsed": 27
+    },
+    {
+      "id": 5,
+      "title": "雲端商用系統的架構與應用—AWS以為例",
+      "questionCountPdf": 5,
+      "questionCountParsed": 5
+    },
+    {
+      "id": 6,
+      "title": "銷售與配銷分析",
+      "questionCountPdf": 28,
+      "questionCountParsed": 28
+    },
+    {
+      "id": 7,
+      "title": "採購之關鍵績效指標",
+      "questionCountPdf": 24,
+      "questionCountParsed": 24
+    },
+    {
+      "id": 8,
+      "title": "財務會計模組之關鍵績效指標",
+      "questionCountPdf": 17,
+      "questionCountParsed": 17
+    },
+    {
+      "id": 9,
+      "title": "商業智慧——生產規劃與控制",
+      "questionCountPdf": 23,
+      "questionCountParsed": 23
+    },
+    {
+      "id": 10,
+      "title": "人力資源關鍵績效指標",
+      "questionCountPdf": 26,
+      "questionCountParsed": 26
+    },
+    {
+      "id": 11,
+      "title": "商業智慧對於企業的效益",
+      "questionCountPdf": 13,
+      "questionCountParsed": 13
+    },
+    {
+      "id": 12,
+      "title": "大數據集群分析介紹",
+      "questionCountPdf": 5,
+      "questionCountParsed": 5
+    },
+    {
+      "id": 13,
+      "title": "分類技術",
+      "questionCountPdf": 8,
+      "questionCountParsed": 8
+    },
+    {
+      "id": 14,
+      "title": "關聯規則",
+      "questionCountPdf": 15,
+      "questionCountParsed": 15
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "資料倉儲學院(TDWI)將商業智慧(BI)比喻成一個資料煉油廠(Data Refinery)，BI在資料煉油廠 的類比中的資訊處理程序是",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料→資訊→知識"
+        },
+        {
+          "key": "B",
+          "text": "資料→資訊→智慧"
+        },
+        {
+          "key": "C",
+          "text": "資料→資訊→知識→智慧"
+        },
+        {
+          "key": "D",
+          "text": "資料→資訊→知識→決策。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "商業智慧(BI)在資料煉油廠的類比中將原始資料處理成哪些資訊產品 (1) 資料倉儲的資訊 (2) 知識 (3) 智慧 (4) 決策",
+      "options": [
+        {
+          "key": "A",
+          "text": "1234"
+        },
+        {
+          "key": "B",
+          "text": "123"
+        },
+        {
+          "key": "C",
+          "text": "124"
+        },
+        {
+          "key": "D",
+          "text": "234。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "商業智慧(BI)軟體的報表和分析工具不包括",
+      "options": [
+        {
+          "key": "A",
+          "text": "線上分析處理"
+        },
+        {
+          "key": "B",
+          "text": "資料採礦工具"
+        },
+        {
+          "key": "C",
+          "text": "資料倉儲(Data Warehouse)"
+        },
+        {
+          "key": "D",
+          "text": "查詢、報表工具。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "根據EIU白皮書的定義，商業智慧(BI)傳統上由哪些部分所組成 (1) 資料源 (2) 資料整合 (3) 資料本身的分析和報表製作 (4) 資料轉換",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "1234"
+        },
+        {
+          "key": "C",
+          "text": "124"
+        },
+        {
+          "key": "D",
+          "text": "234。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "根據Eckerson(2003)的定義，商業智慧(BI)系統的組成架構不包括",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料倉儲環境"
+        },
+        {
+          "key": "B",
+          "text": "資訊分析環境"
+        },
+        {
+          "key": "C",
+          "text": "技術團隊與企業使用者"
+        },
+        {
+          "key": "D",
+          "text": "以上皆是。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "下列何者是商業智慧(BI)解決方案所帶來的有形效益 (1) 節省時間 (2) 節省成本 (3) 更有效率 的流程 (4) 更好的顧客滿意度 (5) 事實的單一版本",
+      "options": [
+        {
+          "key": "A",
+          "text": "34"
+        },
+        {
+          "key": "B",
+          "text": "12"
+        },
+        {
+          "key": "C",
+          "text": "45"
+        },
+        {
+          "key": "D",
+          "text": "24。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "下列何者是商業智慧(BI)解決方案所帶來的無形效益 (1) 事實的單一版本 (2) 更好的決策 (3) 更有效率的流程 (4) 更好的員工滿意度 (5) 節省時間 (6) 投資報酬率",
+      "options": [
+        {
+          "key": "A",
+          "text": "1245"
+        },
+        {
+          "key": "B",
+          "text": "2346"
+        },
+        {
+          "key": "C",
+          "text": "3456"
+        },
+        {
+          "key": "D",
+          "text": "1234。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "根據TDWI(2003)的調查，商業智慧(BI)的效益排名前二(Top 2)為 (1) 節省成本 (2) 節省時間 (3) 事實的單一版本 (4) 更佳的決策",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "13"
+        },
+        {
+          "key": "C",
+          "text": "23"
+        },
+        {
+          "key": "D",
+          "text": "34。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "學者David Parmenter(2007)提出績效衡量的指標類型包括",
+      "options": [
+        {
+          "key": "A",
+          "text": "PI與KPI"
+        },
+        {
+          "key": "B",
+          "text": "KPI與 KRI"
+        },
+        {
+          "key": "C",
+          "text": "KRI、PI以及 KPI"
+        },
+        {
+          "key": "D",
+          "text": "RI、KRI、PI以及 KPI。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "可以讓企業主瞭解到「前 10%顧客的銷售成長百分比」是哪一種衡量指標 (1) KRI (2) PI (3) KPI (4) SBL (5) SKI (6) NKI",
+      "options": [
+        {
+          "key": "A",
+          "text": "145"
+        },
+        {
+          "key": "B",
+          "text": "23"
+        },
+        {
+          "key": "C",
+          "text": "356"
+        },
+        {
+          "key": "D",
+          "text": "246。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "在建構平衡計分卡(Balanced Scorecard, BSC)中的財務構面衡量指標時，通常是以財務觀點找 出一些財務衡量，例如「淨利(Net Profit)」，其定義就是從營收扣除所有費用和稅金後的利潤，也 是公司獲利程度的一個衡量指標，關於淨利這一個衡量指標的歸屬類別，下列哪一選項是正確的描 述",
+      "options": [
+        {
+          "key": "A",
+          "text": "對於任何企業組織而言淨利一定是關鍵結果指標(Key Result Indicators, KRIs)"
+        },
+        {
+          "key": "B",
+          "text": "對於任何企業組織而言淨利一定是績效指標(Performance Indicators, PIs)"
+        },
+        {
+          "key": "C",
+          "text": "對於任何企業組織而言淨利一定是關鍵績效指標(Key Performance Indicators, KPIs)"
+        },
+        {
+          "key": "D",
+          "text": "對於某些公司而言淨利很可能是一個 KPI，對其他公司來說淨利有可能是一個儀表板中的 KRI，當然它也有可能是眾多 PIs 中的一個。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 12,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "學者Robert S. Kaplan 和 David P. Norton(1992)所提出的平衡計分卡(Balanced Scorecard, BSC)是 一種策略管理方法，BSC 理論中包含四大構面，除了學習與成長構面之外，其餘構面為下列哪一 選項",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務構面、供應商構面、利益關係者構面"
+        },
+        {
+          "key": "B",
+          "text": "顧客構面、薪資成長構面、員工生涯規劃構面"
+        },
+        {
+          "key": "C",
+          "text": "內部流程構面、資訊系統構面、網路構面"
+        },
+        {
+          "key": "D",
+          "text": "財務構面、顧客構面、內部流程構面。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "下列何者並非學者 Robert S. Kaplan 和David P. Norton(1992)所提出的平衡計分卡(Balanced Scorecard, BSC)的四大構面之一",
+      "options": [
+        {
+          "key": "A",
+          "text": "願景與策略"
+        },
+        {
+          "key": "B",
+          "text": "學習與成長"
+        },
+        {
+          "key": "C",
+          "text": "內部流程"
+        },
+        {
+          "key": "D",
+          "text": "顧客。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "「改善對顧客的瞭解」是平衡計分卡(Balanced Scorecard, BSC)哪一個構面的績效指標",
+      "options": [
+        {
+          "key": "A",
+          "text": "顧客"
+        },
+        {
+          "key": "B",
+          "text": "內部流程"
+        },
+        {
+          "key": "C",
+          "text": "學習與成長"
+        },
+        {
+          "key": "D",
+          "text": "工程技術。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "在平衡計分卡(Balanced Scorecard, BSC)的四大構面中，下列何者的策略目標不包含領先指標",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務"
+        },
+        {
+          "key": "B",
+          "text": "顧客"
+        },
+        {
+          "key": "C",
+          "text": "內部流程"
+        },
+        {
+          "key": "D",
+          "text": "研究開發。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 16,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "平衡計分卡(Balanced Scorecard, BSC)中哪一個構面可以找出回答「為了股東和顧客的滿意， 我們必須在哪方面表現卓越」的衡量",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務"
+        },
+        {
+          "key": "B",
+          "text": "顧客"
+        },
+        {
+          "key": "C",
+          "text": "內部流程"
+        },
+        {
+          "key": "D",
+          "text": "學習與成長。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "平衡計分卡(Balanced Scorecard, BSC)的哪一個構面可以找出回答「我們能否持續改善並創造 價值」的衡量",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務"
+        },
+        {
+          "key": "B",
+          "text": "內部流程"
+        },
+        {
+          "key": "C",
+          "text": "學習與成長"
+        },
+        {
+          "key": "D",
+          "text": "顧客。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "下列那一項是由平衡計分卡(Balanced Scorecard, BSC)四大構面中彼此相依的策略目標所組成",
+      "options": [
+        {
+          "key": "A",
+          "text": "策略地圖"
+        },
+        {
+          "key": "B",
+          "text": "策略方塊"
+        },
+        {
+          "key": "C",
+          "text": "策略定位"
+        },
+        {
+          "key": "D",
+          "text": "策略資訊系統。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "下列關於組織中關鍵績效指標(KPI)的敘述何者正確 (1) 設計KPI時是由上而下 (2) 衡量KPI 時是由下而上 (3) 存在每一個管理層級 (4) 設計時是由下而上 (5) 只有高階層級有 KPI (6) 只有 基層層級才有 KPI",
+      "options": [
+        {
+          "key": "A",
+          "text": "136"
+        },
+        {
+          "key": "B",
+          "text": "245"
+        },
+        {
+          "key": "C",
+          "text": "456"
+        },
+        {
+          "key": "D",
+          "text": "123。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "多重資料來源已經是每一個組織不論大小都面臨的實際問題，能夠解決多重資料來源的資料 整合方法包括 (1) 建立資料倉儲並使用 ETL(萃取、轉換、載入) (2) 使用企業資訊整合(EII)和虛擬 資料倉儲 (3) 使用OLAP 伺服器建立多維度資料方塊 (4) 建置產品資料管理(PDM)系統 (5) 建立 物件導向資料庫(OODB)",
+      "options": [
+        {
+          "key": "A",
+          "text": "24"
+        },
+        {
+          "key": "B",
+          "text": "235"
+        },
+        {
+          "key": "C",
+          "text": "345"
+        },
+        {
+          "key": "D",
+          "text": "123。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 21,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "學者Cooper針對美國中型企業如何使用商業智慧(BI)因應資訊挑戰的內容做過調查與研究， 發現選擇 BI解決方案的首要考慮是",
+      "options": [
+        {
+          "key": "A",
+          "text": "公司本身的需求和限制"
+        },
+        {
+          "key": "B",
+          "text": "容易安裝、部署、和維護"
+        },
+        {
+          "key": "C",
+          "text": "有快速的建置方式"
+        },
+        {
+          "key": "D",
+          "text": "是否有客戶喜歡這樣的資料呈現方式。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "促銷行動中以新顧客為目標的廣告費用是那個構面的領先指標",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務"
+        },
+        {
+          "key": "B",
+          "text": "顧客"
+        },
+        {
+          "key": "C",
+          "text": "內部流程"
+        },
+        {
+          "key": "D",
+          "text": "研究開發。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "chapterId": 1,
+      "chapterTitle": "大數據時代的商業智慧簡介",
+      "stem": "學者 David Parmenter(2007)主張必須是 24/7 全時監控或者每天監控的是",
+      "options": [
+        {
+          "key": "A",
+          "text": "KRI"
+        },
+        {
+          "key": "B",
+          "text": "KPI"
+        },
+        {
+          "key": "C",
+          "text": "PI"
+        },
+        {
+          "key": "D",
+          "text": "SCI。 第 2 章 BI專案生命週期-19題"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "商業智慧(BI)系統專案的執行與一般資訊系統開發的過程類似，在 BI專案生命週期裡，包含 了以下的五個步驟 (1) 系統導入階段 (2) 評估階段 (3) 規劃階段 (4) 系統設計與建構階段 (5) 專 案分析階段，請問它們的先後順序為",
+      "options": [
+        {
+          "key": "A",
+          "text": "12345"
+        },
+        {
+          "key": "B",
+          "text": "23541"
+        },
+        {
+          "key": "C",
+          "text": "23451"
+        },
+        {
+          "key": "D",
+          "text": "23145。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "關於商業智慧(BI)的特性，下列何者為非",
+      "options": [
+        {
+          "key": "A",
+          "text": "BI系統必須能夠提供智慧作為決策的依據"
+        },
+        {
+          "key": "B",
+          "text": "資訊需具備即時、整合的特性"
+        },
+        {
+          "key": "C",
+          "text": "資訊需具備多維度的特性"
+        },
+        {
+          "key": "D",
+          "text": "透過 BI系統，企業可以及時發現內部營運現況及掌握市場動態。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "在商業智慧(BI)的規劃階段裡的企業基礎設施評估裡，可分為技術面與非技術面的基礎設施評 估。請問在技術面的基礎設施評估裡，下列何者不包含在內",
+      "options": [
+        {
+          "key": "A",
+          "text": "硬體平台"
+        },
+        {
+          "key": "B",
+          "text": "中介軟體平台"
+        },
+        {
+          "key": "C",
+          "text": "網路安全平台"
+        },
+        {
+          "key": "D",
+          "text": "資料庫管理系統平台。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "在商業智慧(BI)的規劃階段裡的企業基礎設施評估裡，可分為技術面與非技術面的基礎設施評 估。請問在非技術面的基礎設施評估裡，下列何者不包含在內",
+      "options": [
+        {
+          "key": "A",
+          "text": "功能部門的運作"
+        },
+        {
+          "key": "B",
+          "text": "營運活動的作業流程"
+        },
+        {
+          "key": "C",
+          "text": "詮釋資料資料庫"
+        },
+        {
+          "key": "D",
+          "text": "資源的分配。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 28,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "在選擇商業智慧(BI)系統的資料時，應考慮的準則中，下列何者為非",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料可靠度"
+        },
+        {
+          "key": "B",
+          "text": "資料傳輸速度"
+        },
+        {
+          "key": "C",
+          "text": "資料正確性"
+        },
+        {
+          "key": "D",
+          "text": "資料一致性。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "關於詮釋資料資料庫(Meta Data Repository)分析的工作，下列何者為非",
+      "options": [
+        {
+          "key": "A",
+          "text": "分析詮釋資料資料庫需求"
+        },
+        {
+          "key": "B",
+          "text": "分析詮釋資料資料庫的介面需求"
+        },
+        {
+          "key": "C",
+          "text": "建立邏輯詮釋資料模型(Logical Meta Model)"
+        },
+        {
+          "key": "D",
+          "text": "建立資料載入順序。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "在規劃ETL(萃取、轉換、載入)時，首先要決定有哪些資料需要移轉，不同資料移轉的決定， 攸關 ETL程式的準備，請問下列何種移轉方式為非",
+      "options": [
+        {
+          "key": "A",
+          "text": "初始載入"
+        },
+        {
+          "key": "B",
+          "text": "歷史載入"
+        },
+        {
+          "key": "C",
+          "text": "隨機載入"
+        },
+        {
+          "key": "D",
+          "text": "差異載入。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "關於詮釋資料資料庫(Meta Data Repository)設計時所需包括的部份，下列何者為非",
+      "options": [
+        {
+          "key": "A",
+          "text": "建構詮釋資料資料庫"
+        },
+        {
+          "key": "B",
+          "text": "建構雛形系統"
+        },
+        {
+          "key": "C",
+          "text": "詮釋資料資料庫工具介面"
+        },
+        {
+          "key": "D",
+          "text": "詮釋資料搬移(Migration)流程。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "在規劃商業智慧(BI)專案時，專案規劃實際執行的步驟中會使用到的方法，並不包括下列何者",
+      "options": [
+        {
+          "key": "A",
+          "text": "WBS"
+        },
+        {
+          "key": "B",
+          "text": "CPM"
+        },
+        {
+          "key": "C",
+          "text": "PERT"
+        },
+        {
+          "key": "D",
+          "text": "SWOT。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "整體而言，在商業智慧(BI)專案分析階段中可以運用「來源資料分析法」進行資料分析，在 「來源資料分析法」裡，會透過下列方式來確保資料品質，請問下列選項中何者並不包括在內",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料偵錯(Data Archeology)"
+        },
+        {
+          "key": "B",
+          "text": "資料轉換(Data Transformation)"
+        },
+        {
+          "key": "C",
+          "text": "資料清理(Data Cleansing)"
+        },
+        {
+          "key": "D",
+          "text": "資料防誤(Data Enforcement)。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "整體而言，在商業智慧(BI)專案分析階段中可以運用雛形系統(Application Prototyping)的建構 來展示完整系統所具備的分析能力，雛形系統是一種視覺溝通工具，一般會有各種不同功能的雛形 系統，請問下列何者並不包含在內",
+      "options": [
+        {
+          "key": "A",
+          "text": "示範用的雛形系統(Demo Prototype)"
+        },
+        {
+          "key": "B",
+          "text": "操作型的雛形系統(Operational Prototype)"
+        },
+        {
+          "key": "C",
+          "text": "模擬型的雛形系統(Simulation Prototype)"
+        },
+        {
+          "key": "D",
+          "text": "概念型的雛型系統(Proof-of-Concept Prototype)。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "在ETL(萃取、轉換、載入)的過程中，由於來源資料品質的因素，哪一個部份是最繁重的一部 份",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料萃取"
+        },
+        {
+          "key": "B",
+          "text": "轉換"
+        },
+        {
+          "key": "C",
+          "text": "載入"
+        },
+        {
+          "key": "D",
+          "text": "以上皆是。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "在ETL(萃取、轉換、載入)的過程中，應著重於輸入與輸出資料的一致性。這方面的驗證，可 以由下列幾種方式來進行，請問下列何者並不包括在內",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料筆數"
+        },
+        {
+          "key": "B",
+          "text": "特定值的資料筆數"
+        },
+        {
+          "key": "C",
+          "text": "數值總和"
+        },
+        {
+          "key": "D",
+          "text": "檔案大小。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 37,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "在ETL(萃取、轉換、載入)的最後階段，需擬定一個正式測試計畫。而通常一個完整的測試， 包含以下幾種測試，請問下列何者為非",
+      "options": [
+        {
+          "key": "A",
+          "text": "事後測試"
+        },
+        {
+          "key": "B",
+          "text": "單元測試"
+        },
+        {
+          "key": "C",
+          "text": "整合測試"
+        },
+        {
+          "key": "D",
+          "text": "迴歸測試。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "商業智慧(BI)系統的應用程式通常係指「即時線上分析處理工具(Online Analytical Processing Tools, OLAP)」，OLAP 具有以下優點，請問下列何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "多維度分析"
+        },
+        {
+          "key": "B",
+          "text": "簡易方便的瀏覽介面"
+        },
+        {
+          "key": "C",
+          "text": "以圖表呈現資料分析結果"
+        },
+        {
+          "key": "D",
+          "text": "以上皆是。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 39,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "BI專案之生命週期之排序何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "評估階段→規劃階段→系統導入階段→專案分析階段→系統設計與建構階段"
+        },
+        {
+          "key": "B",
+          "text": "評估階段→規劃階段→系統設計與建構階段→專案分析階段→系統導入階段"
+        },
+        {
+          "key": "C",
+          "text": "評估階段→規劃階段→專案分析階段→系統設計與建構階段→系統導入階段"
+        },
+        {
+          "key": "D",
+          "text": "評估階段→規劃階段→專案分析階段→系統導入階段→系統設計與建構階段。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 40,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "專案管理主要處理哪些事情 (1) 專案要達成哪些目標 (2) 達成各項目標所需的時間 (3) 達成 各項目標所需的成本 (4) 各項目標達成的負責人",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "124"
+        },
+        {
+          "key": "D",
+          "text": "1234。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "下列關於ETL(萃取、轉換、載入)之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "ETL過程的準確性應著重於輸入與輸出資料的一致性"
+        },
+        {
+          "key": "B",
+          "text": "ETL過程的準確性可利用資料筆數、特定值的資料筆數及數值總和來進行驗證"
+        },
+        {
+          "key": "C",
+          "text": "ETL本身應具有驗算(Reconciliation)的能力，以證明此工具的可信度"
+        },
+        {
+          "key": "D",
+          "text": "ETL中最繁重的一部份是更正，最主要是輸出資料驗證的問題。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 42,
+      "chapterId": 2,
+      "chapterTitle": "BI專案生命週期",
+      "stem": "下列關於詮釋資料之相關敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "要將資料清楚且唯一地定義需借助詮釋資料"
+        },
+        {
+          "key": "B",
+          "text": "一般資料庫為儲存資料庫之用，而詮釋資料資料庫為儲存「資料的背景資訊」"
+        },
+        {
+          "key": "C",
+          "text": "詮釋資料主要描述資料內容、資料背景、資料屬性、資料結構以及其他有關該資料的相關訊息"
+        },
+        {
+          "key": "D",
+          "text": "詮釋資料又稱為權限資料。 第 3 章 維度模型化介紹-27題"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 43,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "目前商業智慧(BI)系統設計以用簡易的視覺化拖曳(Drag & Drop)方式來進行資料選取，下列有 關BI系統的描述何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "從維度資料表內挑選出來的欄位，BI系統都會事先針對這些欄位內容值相同者進行加總(Sum) 的計算"
+        },
+        {
+          "key": "B",
+          "text": "從事實資料表中挑選出來的數值性內容的欄位，都會依據同一群組的資料值進行群組(Group By)的動作"
+        },
+        {
+          "key": "C",
+          "text": "從維度資料表內挑選出來的欄位，BI系統都會事先針對這些欄位內容值不相同者進行加總 (Sum)的動作"
+        },
+        {
+          "key": "D",
+          "text": "從維度資料表內挑選出來的欄位，BI系統都會事先針對這些欄位內容值相同者進行群組 (Group By)的動作。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 44,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列哪一選項是維度模型(Dimensional Model)的別稱",
+      "options": [
+        {
+          "key": "A",
+          "text": "星狀綱要(Star Schema)"
+        },
+        {
+          "key": "B",
+          "text": "實體關係體模型(Entity Relationship Model, ERM)"
+        },
+        {
+          "key": "C",
+          "text": "物件導向資料模型(Object-Oriented Data Model)"
+        },
+        {
+          "key": "D",
+          "text": "關聯式資料模型(Relational Data Model)。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列選項中哪一個不是實體關係體模型(Entity Relationship Model, ERM)不適合BI系統設計的 原因",
+      "options": [
+        {
+          "key": "A",
+          "text": "ERM 內資料需正規化(Normalization)技術分析過"
+        },
+        {
+          "key": "B",
+          "text": "ERM 太過細碎因此不適合非 IT人員閱讀"
+        },
+        {
+          "key": "C",
+          "text": "ERM 查詢時候需作很多速度慢的合併(Join) 運算"
+        },
+        {
+          "key": "D",
+          "text": "ERM 內資料之間的關係被要求是反正規化(Denormalization)的型式。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 46,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "在1997年Kimball 提出的全新的資料模型架構稱為維度模型(Dimensional Model)，下列有關 維度模型的描述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "此模型又稱為星狀綱要(Star Schema)"
+        },
+        {
+          "key": "B",
+          "text": "此模型不建議以實體關係體圖(Entity Relationship Diagrams, ERD)來呈現"
+        },
+        {
+          "key": "C",
+          "text": "一個維度模型只會有一個核心即一張維度資料表"
+        },
+        {
+          "key": "D",
+          "text": "模型中間核心的資料表稱為事實資料表(Fact Table)。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列有關星狀綱要(Star Schema)的描述何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "整個模型在正中央核心部分會以一張資料表來表示，稱為維度資料表(Dimension Table)"
+        },
+        {
+          "key": "B",
+          "text": "星狀綱要如同一顆星星形狀，而星星會從中央核心射出許多閃爍的光芒，每一道光芒都以一張 資料表來表示，稱為事實資料表(Fact Table)"
+        },
+        {
+          "key": "C",
+          "text": "因為每一道光芒即代表一個維度方向或一個看資料角度的概念，所以此模型也稱為維度模型"
+        },
+        {
+          "key": "D",
+          "text": "不可新增維度資料表到已定義好的模型中。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列有關維度模型(Dimensional Model)的描述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "正中間的事實資料表主要用來表達企業組織在經營管理上可以清楚地被衡量(Measurement)且可 以被拿來使用的績效(Performance)指標"
+        },
+        {
+          "key": "B",
+          "text": "模型中環繞核心維度資料表的為事實資料表"
+        },
+        {
+          "key": "C",
+          "text": "事實資料表內所儲存的都是記錄著企業組織在日常營運上每一件事情實際所產生的資料，所以 稱為事實資料表"
+        },
+        {
+          "key": "D",
+          "text": "存在事實資料表格內的資料都稱為事實(Facts)。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列哪些描述選項是維度模型化的優點 (1) 容易瞭解(Understandability) (2) 查詢運算快(Query Performance) (3) 模型中每一個維度資料表的重要性都相同 (4) 可以容納非預期中的新資料 (Accommodate Unexpected New Data) (5) 只需要進行到第三正規型關聯表 (6)不需要反正規化技術",
+      "options": [
+        {
+          "key": "A",
+          "text": "1345"
+        },
+        {
+          "key": "B",
+          "text": "1234"
+        },
+        {
+          "key": "C",
+          "text": "1236"
+        },
+        {
+          "key": "D",
+          "text": "1246。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "維度模型工作必須辨別且擷取出可衡量(Measurements)的數值資料部份以及情境化(Context)的 文字敘述資料部分，下列描述何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "可衡量(Measurements)的數值資料部份就是指事實資料"
+        },
+        {
+          "key": "B",
+          "text": "情境化(Context)的文字敘述資料部分就是指事實資料"
+        },
+        {
+          "key": "C",
+          "text": "可衡量(Measurements)的數值資料部份就是指主鍵資料"
+        },
+        {
+          "key": "D",
+          "text": "情境化(Context)的文字敘述資料部分就是指外來鍵資料。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "維度模型中事實資料表的基本結構包含下列哪三個部份 (1) 擁有一組對應聯結到維度模型中 各個維度資料表的外來鍵(Foreign Keys, FK) (2) 會有一個或者多個數值型態的欄位用來儲存事實資 料 (3) 可能包含一個或者多個退化維度(Degenerate Dimensions, DD)的欄位 (4) 具有唯一性的超級 鍵(Super Keys) (5) 具有一種 RSA 特性的加密欄位來確保資訊安全",
+      "options": [
+        {
+          "key": "A",
+          "text": "234"
+        },
+        {
+          "key": "B",
+          "text": "145"
+        },
+        {
+          "key": "C",
+          "text": "345"
+        },
+        {
+          "key": "D",
+          "text": "123。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 52,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "事實資料表內的顆粒的基本型態(Fundamental Grains)包含下列哪些選項 (1) 交易事實資料表 (Transaction Fact Tables) (2) 週期快照事實資料表(Periodic Snapshot Fact Tables) (3) 累積快照事實資 料表(Accumulating Snapshot Fact Tables) (4) 關聯規則事實資料表(Association Rule Fact Tables) (5) 模糊事實資料表(Fuzzy Fact Tables)",
+      "options": [
+        {
+          "key": "A",
+          "text": "125"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "245"
+        },
+        {
+          "key": "D",
+          "text": "123。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 53,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "有關維度模型中顆粒的大小的描述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "如果儲存顆粒設定大或粗，則事實資料表中資料量會變少，但是較細的資料就查詢不到"
+        },
+        {
+          "key": "B",
+          "text": "如果儲存顆粒設定小或細，雖然有較細小的報表資料可以提供查詢，但是事實資料表中的資料 量會很龐大"
+        },
+        {
+          "key": "C",
+          "text": "顆粒度不同的資料可以放同一事實資料表中"
+        },
+        {
+          "key": "D",
+          "text": "如果資料量不太大，建議以顆粒度最細的方式儲存資料。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "在維度資料模型中有關維度資料表(Dimension Tables)代理鍵的描述下列何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "代理鍵(Surrogate Keys, SK)由系統給定"
+        },
+        {
+          "key": "B",
+          "text": "代理鍵(Surrogate Keys, SK)的欄位的意義與自然鍵(Natural Keys, NK)相同，所以可以直接以自 然鍵當主鍵"
+        },
+        {
+          "key": "C",
+          "text": "代理鍵(Surrogate Keys, SK)編碼通常含有管理意涵"
+        },
+        {
+          "key": "D",
+          "text": "代理鍵(Surrogate Keys, SK)通常會有文字部份資料。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "在實務上維度模型使用代理鍵有很多利益，包含下列哪些選項 (1) 查詢效率(Performance) (2) 整合不同來源系統的自然鍵 (3) 提供穩定的鍵值 (4) 可以追蹤維度屬性值的變動 (5) 可以不用使 用外來鍵 (6) 資料表可以不用進行正規化分析 (7) 資料表可以不用進行反正規化分析",
+      "options": [
+        {
+          "key": "A",
+          "text": "1267"
+        },
+        {
+          "key": "B",
+          "text": "1234"
+        },
+        {
+          "key": "C",
+          "text": "1256"
+        },
+        {
+          "key": "D",
+          "text": "34567。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "在維度模型中，有關維度資料表內的欄位描述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "欄位名稱具詳盡性(Verbose)，盡量不厭其煩的用全文命名"
+        },
+        {
+          "key": "B",
+          "text": "如果欄位值有缺失，建議以「未知的(Unknown)」或者「未符合(No Applicable, N/A)」當作填 入值"
+        },
+        {
+          "key": "C",
+          "text": "完整的欄位名稱才能幫助大家了解報表的意涵，盡量要與所描述的事情內容一致"
+        },
+        {
+          "key": "D",
+          "text": "如果欄位值有缺失，即便是填入虛值(Null Value)也不會造成該筆資料無法被查詢到。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列選項中有關商業智慧(BI)系統的建構方式何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "利用集中規劃觀點建構全公司的 BI系統，將企業所需要的全部資料先蒐集與整合到一套系統 上，再將資料分部門派送到較小的資料超市(Data Mart)供主管查詢，稱為資料倉儲(Data Warehouses)系統的建構方式"
+        },
+        {
+          "key": "B",
+          "text": "採用漸進式的方式分別完成，僅為公司內某單位先建構一個小的獨立的 BI系統，稱為資料超 市(Data Mart)系統的建構方式"
+        },
+        {
+          "key": "C",
+          "text": "資料超市(Data Mart)系統的建構方式因為工程浩大，很耗時間，以致於無法在短期內實現，因 此企業容易失去熱忱，最後猶豫不決終告失敗"
+        },
+        {
+          "key": "D",
+          "text": "使用資料倉儲系統的建構方式須使用資料倉儲匯流排架構(Data Warehouse Bus Architecture)。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 58,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "在維度模型中，下列哪一個有關日期或時間資料的設計描述是錯誤的",
+      "options": [
+        {
+          "key": "A",
+          "text": "日期是每一個維度模型都絕對不會出現的維度資料表"
+        },
+        {
+          "key": "B",
+          "text": "如果有專案上的需求將日期與時間資料當作可以加總的數值資料處理，則日期與時間資料可以 直接當作事實資料"
+        },
+        {
+          "key": "C",
+          "text": "如果將日期與時間資料放在同一張維度資料表中，會產生太多筆的資料，可以將日期與時間資 料分別獨立儲存成日期維度資料表以及時間維度資料表，這兩個維度資料表皆直接與事實資料表連 接"
+        },
+        {
+          "key": "D",
+          "text": "如果專案需求中必須提供工作或任務所花費的時間間隔(Time Interval)，則可以將時間資料轉換 成相對應的數值資料並放入事實資料表中成為一個可計算的欄位，報表呈現時候再透過計算時間間 隔的公式產生一個延伸性欄位供企業主參考。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列有關退化維度(Degenerate Dimensions, DD)的描述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "退化維度就等同迷你維度資料表(Mini-Dimension Tables)"
+        },
+        {
+          "key": "B",
+          "text": "實務上常見的訂單(Order)、發票(Invoice)、提貨單(Bill of Lading)、機票(Airline Ticket)等文件 上的單號或票號資料都會是退化維度資料來源"
+        },
+        {
+          "key": "C",
+          "text": "退化維度指的就是該維度資料表中除了交易控制文件的編號欄位之外別無其他欄位，例如訂單 編號"
+        },
+        {
+          "key": "D",
+          "text": "分析過程中可以將退化維度資料表中的欄位直接納入事實資料表中，原來的退化維度資料表則 不再需要。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "關於變動緩慢的維度資料表記錄方式(Slowly Changing Dimensions, SCD)的處理方式，Kimball 提出幾種對應的方法，在實務上哪一種方法最簡單，不需要特別撰寫程式來維護資料，查詢資料的 程式也最簡單，但是會有造成資料錯誤的疑慮",
+      "options": [
+        {
+          "key": "A",
+          "text": "新增加一筆維度資料"
+        },
+        {
+          "key": "B",
+          "text": "直接改寫維度屬性資料"
+        },
+        {
+          "key": "C",
+          "text": "新增加一個維度屬性"
+        },
+        {
+          "key": "D",
+          "text": "刪除並更新一筆維度資料。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列有關變動快速龐大型維度資料表(Rapidly Changing Monster Dimension Tables)的描述何者 正確 (1) 以新增加一筆維度資料技術來處理效率極高 (2) 解決方法就是分離(Break Off)原來維度資 料表中經常改變維度屬性值的欄位 (3) 可以利用退化維度(Degenerate Dimensions, DD)技術處理 (4) 可以採用半可加性(Semi-Additive)數值資料處理 (5) 將連續型數值欄位帶狀化(Banded)，使成 為帶狀值後再儲存到迷你維度資料表中會讓分離技術更有效率 (6) 迷你維度資料表在使用上毫無 缺陷是個完美的技術 (7) 被分離開且規模較小的維度資料表稱為迷你維度資料表(Mini-Dimension Tables) (8) 當第一次分離出一個迷你維度資料表時，如果迷你維度資料表的資料量還是成長很快， 則須要進行第二次分離，另外成立第二個迷你維度資料表(Second Mini-Dimension Table) (9) 利用直 接改寫維度屬性資料技術可以增加效率",
+      "options": [
+        {
+          "key": "A",
+          "text": "2578"
+        },
+        {
+          "key": "B",
+          "text": "13469"
+        },
+        {
+          "key": "C",
+          "text": "278"
+        },
+        {
+          "key": "D",
+          "text": "13579。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列關於維度模型(Dimensional Model)之敘述何者有誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "維度模型的特點有容易瞭解、查詢快、均衡的維度資料表及可以容納非預期中的新資料"
+        },
+        {
+          "key": "B",
+          "text": "維度模型又稱為星狀綱要"
+        },
+        {
+          "key": "C",
+          "text": "維度之劃分建議以管理上的 3個H以及1個W 來進行劃分"
+        },
+        {
+          "key": "D",
+          "text": "維度模型工作必須辨別且擷取出可衡量的數值資料部分以及情境化的文字敘述資料部分。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列累積快照事實資料表、交易事實資料表與週期快照事實資料表之比較敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "以時間週期(Time Period)為比較項目而言，累積快照事實資料表的時間週期為不確定時間間 距，交易事實資料表的時間週期為單時間點，週期快照事實資料表的時間週期為固定時間間距"
+        },
+        {
+          "key": "B",
+          "text": "以事實資料為比較項目而言，累積快照事實資料表的事實資料表示預設時間內的績效表現，交 易事實資料表的事實資料表示交易活動內的績效表現，週期快照事實資料表事實資料表示生命週期 內的績效表現"
+        },
+        {
+          "key": "C",
+          "text": "以設計日期維度資料表為比較項目而言，累積快照事實資料表在日期維度資料表時會以多日期 欄位方式記錄里程碑，交易事實資料表在日期維度資料表會記錄著交易的日期，週期快照事實資料 表在日期維度資料表會紀錄著週期結束的日期"
+        },
+        {
+          "key": "D",
+          "text": "以顆粒(Grain)度設定為比較項目而言，累積快照事實資料表的顆粒度設定是以一個工作生命週 期來記錄一筆事實資料，交易事實資料的顆粒度設定是以一個交易事件來記錄一筆事實資料，週期 快照事實資料表的顆粒度設定是以一個固定時間的企業現況來記錄一筆事實資料。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "通常維度資料表具有以下哪三種特性 (1) 欄位名稱具詳盡性(Verbose) (2) 欄位值具描述性 (Descriptive) (3) 資料具完整性(Complete) (4) 資訊來源具未知性(Unknown)",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "124"
+        },
+        {
+          "key": "D",
+          "text": "134。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列有關星狀綱要模型之敘述哪些是錯誤 (1) 一個星狀綱要模型中可以有三個事實資料表存 在 (2) 星狀綱要模型中顆粒度大小的設定不一致時，查詢過程比較有效率，正確性較高 (3) 一個 星狀綱要模型中維度資料表只能有一個 (4) 星狀綱要模型中事實資料表中的自然鍵(Natural Keys, NK)欄位就是維度資料表中的外來鍵(FK)欄位的意思 (5) 迷你維度(Mini Demensions)是處理控制文 件時而產生的 (6) 星狀綱要模型中事實資料表中的代理鍵(Surrogate Keys, SK)欄位與自然鍵 (Natural Keys, NK)欄位意義不相同 (7) 星狀綱要模型中維度資料表的描述性欄位如果有蒐集不到 資料的情形盡量都以虛值(Null Value)填入",
+      "options": [
+        {
+          "key": "A",
+          "text": "135"
+        },
+        {
+          "key": "B",
+          "text": "24"
+        },
+        {
+          "key": "C",
+          "text": "3467"
+        },
+        {
+          "key": "D",
+          "text": "1234567。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列關於交易控制文件(Transaction Control Document)之敘述何者有誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "交易控制文件的資料是來源系統或 ERP系統主要處理的對象"
+        },
+        {
+          "key": "B",
+          "text": "文件結構屬於父子(Parent-Child)結構"
+        },
+        {
+          "key": "C",
+          "text": "文件上只有一筆交易文件的表頭記錄(Transaction Header Record)"
+        },
+        {
+          "key": "D",
+          "text": "文件的主體(Transaction Body)只能填入一筆交易品項記錄。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 67,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列關於事實資料表(Fact Table)之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "只用來儲存那些經常用來表現企業經營績效的數值"
+        },
+        {
+          "key": "B",
+          "text": "是一個擁有許多自然鍵的資料表"
+        },
+        {
+          "key": "C",
+          "text": "每筆事實資料表(Fact Table)會連到每張維度資料表中的一筆資料"
+        },
+        {
+          "key": "D",
+          "text": "事實資料絕大多數都是數值性資料。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列關於維度模型之特性敘述何者正確 (1) 可以減少大量的 Join 運作，可以節省查詢時間 (2) 可以方便的組合出查詢報表(Ad-hoc Queries) (3) 可以容納非預期中的新資料 (4) 可以依據任務 及資源的相依性決定關鍵路徑(Critical Path)",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "134"
+        },
+        {
+          "key": "D",
+          "text": "124。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "chapterId": 3,
+      "chapterTitle": "維度模型化介紹",
+      "stem": "下列何者是維度資料表(Dimension table)的基本結構 (1) 主鍵(Primary Keys) (2) 代理鍵 (Surrogate Keys) (3) 自然鍵(Natural Keys) (4) 外來鍵(Foreign Keys)",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "134"
+        },
+        {
+          "key": "D",
+          "text": "124。 第 4 章 立方體資料呈現及資料建置轉換-27題"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "通常資料倉儲設計者，為了同時符合資料結構與呈現內容上的不同需求，需用同一主題的多 維度模型資料去定義出",
+      "options": [
+        {
+          "key": "A",
+          "text": "能給不同使用者用的資料立方體"
+        },
+        {
+          "key": "B",
+          "text": "匯流排矩陣表"
+        },
+        {
+          "key": "C",
+          "text": "多個資料報表"
+        },
+        {
+          "key": "D",
+          "text": "一個資料報表。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "資料立方體的基本組成元件中，在組成維度方面，不包括下列哪一個",
+      "options": [
+        {
+          "key": "A",
+          "text": "維度表"
+        },
+        {
+          "key": "B",
+          "text": "維度表的組成屬性"
+        },
+        {
+          "key": "C",
+          "text": "維度對應關係"
+        },
+        {
+          "key": "D",
+          "text": "維度與事實的對應關係。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 72,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "資料立方體的基本組成元件中，包括下列哪一個 (1) 組成事實 (2) 組成維度 (3) 維度中的屬 性之階層分析 (4) 資料立方體計算與儲存的方法與時機 (5) 匯流排架構 (6) 資料封包",
+      "options": [
+        {
+          "key": "A",
+          "text": "1345"
+        },
+        {
+          "key": "B",
+          "text": "346"
+        },
+        {
+          "key": "C",
+          "text": "1234"
+        },
+        {
+          "key": "D",
+          "text": "246。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 73,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "資料倉儲系統最常提供的三類資料呈現方法為 (1) 一般報表 (2) 線上即時報表分析 (3) 儀表 板 (4) 討論版",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "124"
+        },
+        {
+          "key": "C",
+          "text": "1234"
+        },
+        {
+          "key": "D",
+          "text": "234。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 74,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "最常見的線上即時報表分析動作包括 (1) Roll-Up (2) Drill-Down (3) Slice-and-Dice (4) Pivot (5) Drill-Across (6) Roll-Over (7) Slice-Down",
+      "options": [
+        {
+          "key": "A",
+          "text": "123467"
+        },
+        {
+          "key": "B",
+          "text": "23456"
+        },
+        {
+          "key": "C",
+          "text": "1234567"
+        },
+        {
+          "key": "D",
+          "text": "12345。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 75,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "下列哪一個線上即時報表分析動作會改變報表內部格式排列的順序",
+      "options": [
+        {
+          "key": "A",
+          "text": "Slice-and-Dice"
+        },
+        {
+          "key": "B",
+          "text": "Pivot"
+        },
+        {
+          "key": "C",
+          "text": "Roll-Over"
+        },
+        {
+          "key": "D",
+          "text": "Slice-Down。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "下列哪一個線上即時報表分析動作指的是我們要將兩個或兩個以上的多維度資料模型建立關 係，以用來比較兩個不同模型裡面的資料",
+      "options": [
+        {
+          "key": "A",
+          "text": "Slice-and-Dice"
+        },
+        {
+          "key": "B",
+          "text": "Drill-Across"
+        },
+        {
+          "key": "C",
+          "text": "Roll-Over"
+        },
+        {
+          "key": "D",
+          "text": "Slice-Down。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "單一單位的績效趨勢綜合看板的重點在顯示每一個選中的單位的營運績效的",
+      "options": [
+        {
+          "key": "A",
+          "text": "達成日期"
+        },
+        {
+          "key": "B",
+          "text": "指標"
+        },
+        {
+          "key": "C",
+          "text": "大小"
+        },
+        {
+          "key": "D",
+          "text": "變化趨勢。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 78,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "多維度模型需要經過對應關係才能變成資料立方體，一個多維度模型與資料立方體之間的對 應關係為 (1) 通常對應到一個資料立方體 (2) 可以對應到多個資料立方體 (3) 只能對應到一個資 料立方體",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "13"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "23。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 79,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "一個使用者想要用不同於既有屬性階層來產生其報表，則他要將這個新的屬性階層",
+      "options": [
+        {
+          "key": "A",
+          "text": "另外定義到該立方體"
+        },
+        {
+          "key": "B",
+          "text": "定義到另外一個新建立的立方體"
+        },
+        {
+          "key": "C",
+          "text": "設法融入既有屬性階層"
+        },
+        {
+          "key": "D",
+          "text": "用前述三種方法皆可定義。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 80,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "下列何者不是使用資料倉儲系統所產生的一般報表的好處",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料倉儲系統內的資料是經過整理和核對過的，所以正確性很高"
+        },
+        {
+          "key": "B",
+          "text": "資料倉儲系統將資料收集與報表產生的過程完全分開，如此可使報表產生的效率提高"
+        },
+        {
+          "key": "C",
+          "text": "管理人員可以隨意改變報表格式以符合其需要"
+        },
+        {
+          "key": "D",
+          "text": "報表的遞送方式可透過資料倉儲系統的規劃，所以在遞送的靈活度以及資料安全性上都能有效 的提高。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "在建構ETL(萃取、轉換、載入)系統時，有兩條並存的流程為「規劃與設計流程」和「資料處 理流程」，其中規劃與設計流程各步驟的順序為 (1) 系統建置 (2) 架構設計 (3) 需求與現況 (4) 測試與發佈",
+      "options": [
+        {
+          "key": "A",
+          "text": "1234"
+        },
+        {
+          "key": "B",
+          "text": "3214"
+        },
+        {
+          "key": "C",
+          "text": "3124"
+        },
+        {
+          "key": "D",
+          "text": "2134。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 82,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "在建構ETL(萃取、轉換、載入)系統時，資料處理流程各步驟的順序為 (1) 資料清理 (2) 資 料一致化 (3) 資料萃取 (4) 資料交付",
+      "options": [
+        {
+          "key": "A",
+          "text": "1234"
+        },
+        {
+          "key": "B",
+          "text": "3214"
+        },
+        {
+          "key": "C",
+          "text": "3124"
+        },
+        {
+          "key": "D",
+          "text": "2134。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 83,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "開始設計ETL(萃取、轉換、載入)系統最困難的挑戰就是一切圍繞著「什麼」",
+      "options": [
+        {
+          "key": "A",
+          "text": "系統"
+        },
+        {
+          "key": "B",
+          "text": "人員"
+        },
+        {
+          "key": "C",
+          "text": "需求"
+        },
+        {
+          "key": "D",
+          "text": "經費。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 84,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "ETL(萃取、轉換、載入)的各個步驟於資料倉儲架構中之何處進行",
+      "options": [
+        {
+          "key": "A",
+          "text": "來源系統"
+        },
+        {
+          "key": "B",
+          "text": "資料集結區"
+        },
+        {
+          "key": "C",
+          "text": "展示區"
+        },
+        {
+          "key": "D",
+          "text": "客戶端。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "建構ETL(萃取、轉換、載入)系統時會在架構設計階段中設計資料集結區，ETL小組必須估算 整個資料儲存所需的容量，並提供什麼給資料庫管理員和系統管理員進行集結區的空間分配",
+      "options": [
+        {
+          "key": "A",
+          "text": "來源系統追蹤報告"
+        },
+        {
+          "key": "B",
+          "text": "集結區規模估算表"
+        },
+        {
+          "key": "C",
+          "text": "資料概況分析報告"
+        },
+        {
+          "key": "D",
+          "text": "審計維度表。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 86,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "在ETL(萃取、轉換、載入)資料萃取(Extract)過程中進行來源系統分析(Source System Analysis) 時通常包括兩階段，而其中資料探索階段(Data Discovery Phase)的各個步驟的執行順序為 (1) 追蹤 來源系統 (2) 分析來源系統 (3) 確定原始系統 (4) 收集來源系統",
+      "options": [
+        {
+          "key": "A",
+          "text": "1234"
+        },
+        {
+          "key": "B",
+          "text": "1324"
+        },
+        {
+          "key": "C",
+          "text": "2341"
+        },
+        {
+          "key": "D",
+          "text": "4132。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 87,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "在ETL(萃取、轉換、載入)資料萃取(Extract)步驟中，當初始資料載入完成後，捕獲來源系統 中的資料變化立即變成非常重要的任務，對於一個資料倉儲的成功至關重要，資料內容的維護則依 賴增量載入的過程，而在增量載入的過程中，下列一種監測來源資料變化的方法會有溢位(寫爆)問 題，建議最後考慮",
+      "options": [
+        {
+          "key": "A",
+          "text": "審計欄"
+        },
+        {
+          "key": "B",
+          "text": "資料庫日誌"
+        },
+        {
+          "key": "C",
+          "text": "按時萃取"
+        },
+        {
+          "key": "D",
+          "text": "排除處理。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "在ETL(萃取、轉換、載入)資料萃取(Extract)步驟中，當初始資料載入完成後，捕獲來源系統 中的資料變化立即變成非常重要的任務，對於一個資料倉儲的成功至關重要，資料內容的維護則依 賴增量載入的過程，而在增量載入的過程中，下列一種監測來源資料變化的方法最為可信，但不一 定最有效率",
+      "options": [
+        {
+          "key": "A",
+          "text": "審計欄"
+        },
+        {
+          "key": "B",
+          "text": "按時萃取"
+        },
+        {
+          "key": "C",
+          "text": "排除處理"
+        },
+        {
+          "key": "D",
+          "text": "初始和新增載入。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 89,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "ETL(萃取、轉換、載入)在進行資料清理(Clean)之前、中、後，用以追縱錯誤與衡量品質的工 具對應為 (1) 錯誤事件事實表 (2) 資料概況分析報告 (3) 審計維度表",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "213"
+        },
+        {
+          "key": "C",
+          "text": "312"
+        },
+        {
+          "key": "D",
+          "text": "321。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "資料品質檢查需要根據各種檢查目的設計出各種篩檢程式，ETL(萃取、轉換、載入)系統透過 執行這些篩檢程式來確保資料具有足夠程度之資料品質。資料品質之檢查方法大致可分為四個大的 類型，哪一種類型的資料品質檢查係用來確保由來源系統輸入的資料包含目標系統期望的資料",
+      "options": [
+        {
+          "key": "A",
+          "text": "欄位檢查"
+        },
+        {
+          "key": "B",
+          "text": "結構檢查"
+        },
+        {
+          "key": "C",
+          "text": "資料檢查"
+        },
+        {
+          "key": "D",
+          "text": "值檢查。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 91,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "在建構ETL(萃取、轉換、載入)系統時資料處理流程的每一步驟都相當重要，而其中的資料清 理(Clean)的指導原則為",
+      "options": [
+        {
+          "key": "A",
+          "text": "遇到錯誤停止運行"
+        },
+        {
+          "key": "B",
+          "text": "記錄錯誤持續運行"
+        },
+        {
+          "key": "C",
+          "text": "跳過錯誤持續運行"
+        },
+        {
+          "key": "D",
+          "text": "系統直接當機。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 92,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "由於終端使用者會從多個分離的事實表組合所需的資料進行應用，所以在清理資料後，就需 對資料進行一致化處理，解決不同來源資料間資料不一致的問題，使資料能夠在資料倉儲中一起使 用，建置一致化維度所需要的三個步驟 (1) 篩選 (2) 比對(去重複) (3) 標準化，其正確順序為",
+      "options": [
+        {
+          "key": "A",
+          "text": "132"
+        },
+        {
+          "key": "B",
+          "text": "123"
+        },
+        {
+          "key": "C",
+          "text": "213"
+        },
+        {
+          "key": "D",
+          "text": "321。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 93,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "下列ETL(萃取、轉換、載入)之需求分析何者正確 (1) 時程需求(Latency Requirements)係將追 蹤報告提交到上級管理部門的速度 (2) 整合需求(Integration Requirements)係為能整合各種來源資 料進行分析 (3) 業務需求(Business Needs)指的是資料倉儲終端使用者的資訊需求 (4) 品質需求 (Quality Requirements)之評估結果可能關係到資料倉儲的成敗",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "124"
+        },
+        {
+          "key": "D",
+          "text": "1234。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "下列關於一致化維度(Conformed Dimension)之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "一致化維度對每個被關連的事實表來說都是相同的"
+        },
+        {
+          "key": "B",
+          "text": "建置一致化維度需要標準化、比對(去重複)、篩選三個步驟"
+        },
+        {
+          "key": "C",
+          "text": "一致化維度必須是集中管理的物件"
+        },
+        {
+          "key": "D",
+          "text": "一個好的一致化維度常需要融合多個新欄位表及資料編碼方式。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 95,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "在資料倉儲的資料建制流程中，有關資料處理流程中的部份步驟，正確的執行順序為何",
+      "options": [
+        {
+          "key": "A",
+          "text": "一致化步驟完成之後才進行交付"
+        },
+        {
+          "key": "B",
+          "text": "清理步驟完成之後才進行交付"
+        },
+        {
+          "key": "C",
+          "text": "清理步驟完成之後才進行萃取"
+        },
+        {
+          "key": "D",
+          "text": "一致化步驟完成之後才進行清理。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 96,
+      "chapterId": 4,
+      "chapterTitle": "立方體資料呈現及資料建置轉換",
+      "stem": "在ETL需求分析結束之後，會進入架構設計的階段，此時就要確定 ETL系統在架構方面的選 擇，這些選擇對系統建置步驟而言是十分重要的前提，因為此時的選擇將會影響到下面的哪些項目 (1) 軟體 (2) 硬體 (3) 編碼習慣 (4) 人員 (5) 操作 (6) 會計科目 (7) 優良供應商 (8) 熱賣產品推 薦清單",
+      "options": [
+        {
+          "key": "A",
+          "text": "12345"
+        },
+        {
+          "key": "B",
+          "text": "2478"
+        },
+        {
+          "key": "C",
+          "text": "1268"
+        },
+        {
+          "key": "D",
+          "text": "13678。 第 5 章 雲端商用系統的架構與應用—AWS以為例-5題"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 97,
+      "chapterId": 5,
+      "chapterTitle": "雲端商用系統的架構與應用—AWS以為例",
+      "stem": "以下何者非企業租用雲端服務所帶來的好處",
+      "options": [
+        {
+          "key": "A",
+          "text": "不用購買與維護服務的運算設備"
+        },
+        {
+          "key": "B",
+          "text": "可視每次不同的需要彈性地使用不同等級的服務"
+        },
+        {
+          "key": "C",
+          "text": "可以交由外界執行企業內部的商務決策"
+        },
+        {
+          "key": "D",
+          "text": "為企業省下資料儲存的成本。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 98,
+      "chapterId": 5,
+      "chapterTitle": "雲端商用系統的架構與應用—AWS以為例",
+      "stem": "以下何者敘述為非",
+      "options": [
+        {
+          "key": "A",
+          "text": "AWS 有提供如「命令提示字元」(Command window)讓使用者快速下達管理指令的環境"
+        },
+        {
+          "key": "B",
+          "text": "因資安考量，AWS 不提供可讓用戶客製開發的能力(即不提供開發工具如 SDKs)"
+        },
+        {
+          "key": "C",
+          "text": "AWS Lambda為AWS 所提供的運算服務功能"
+        },
+        {
+          "key": "D",
+          "text": "AWS SageMaker 為 AWS 所提供的機器學習服務功能。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 99,
+      "chapterId": 5,
+      "chapterTitle": "雲端商用系統的架構與應用—AWS以為例",
+      "stem": "對於 BI於AWS 的「偵測信用卡交易詐騙例子」案例中，以下何者為非",
+      "options": [
+        {
+          "key": "A",
+          "text": "運用Amazon Simple Storage Service (Amazon S3)存放訓練資料"
+        },
+        {
+          "key": "B",
+          "text": "運用 Amazon SageMaker 來建立訓練模型"
+        },
+        {
+          "key": "C",
+          "text": "運用Amazon QuickSight 以產生視覺化報告與各式查詢"
+        },
+        {
+          "key": "D",
+          "text": "AWS Lambda 會自動觸發並執行服務，並可自動擴展執行規模，使用者只需要配合支付每次觸 發的服務費用。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 100,
+      "chapterId": 5,
+      "chapterTitle": "雲端商用系統的架構與應用—AWS以為例",
+      "stem": "對於 BI於AWS 的「提升預測準確性」案例中，AWS 的預測解決方案可再增加哪個步驟",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料整備(Data Preparation)"
+        },
+        {
+          "key": "B",
+          "text": "進行預測(Forecasting)"
+        },
+        {
+          "key": "C",
+          "text": "預測結果的視覺化呈現(Data Visualization)"
+        },
+        {
+          "key": "D",
+          "text": "誤差分析(Error Analysis)。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 101,
+      "chapterId": 5,
+      "chapterTitle": "雲端商用系統的架構與應用—AWS以為例",
+      "stem": "租用雲端商業智慧服務時，企業用戶應注意哪些事項",
+      "options": [
+        {
+          "key": "A",
+          "text": "因系統當機或服務中斷而對企業用戶所帶來的損失"
+        },
+        {
+          "key": "B",
+          "text": "龐大企業資料無法上雲端"
+        },
+        {
+          "key": "C",
+          "text": "相較於自行購買設備來執行相同的服務而言，租用的服務費用會來得較昂貴"
+        },
+        {
+          "key": "D",
+          "text": "雲端服務較無資訊安全保障。 第 6 章 銷售與配銷分析-28題"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "以銷售與配銷的功能觀點，將商業智慧(BI)系統分成四層式架構，下列那一選項不包含在此 四層式架構中",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料來源"
+        },
+        {
+          "key": "B",
+          "text": "分析方法"
+        },
+        {
+          "key": "C",
+          "text": "呈現方式"
+        },
+        {
+          "key": "D",
+          "text": "版本更新。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 103,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "從加值型鏈(Valued-Added Chain)的角度來區分，在銷售與配銷的企業功能面，一般而言可以 分成三種商業智慧(BI)解決方案，下列哪一選項不是商業智慧(BI)解決方案",
+      "options": [
+        {
+          "key": "A",
+          "text": "生產分析"
+        },
+        {
+          "key": "B",
+          "text": "行銷分析"
+        },
+        {
+          "key": "C",
+          "text": "銷售分析"
+        },
+        {
+          "key": "D",
+          "text": "交貨分析。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 104,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "以銷售與配銷的功能觀點，商業智慧(BI)系統可以分成四層次架構，在分析方法架構中一種 介於靜態報表與線上分析處理(OLAP)間的資料查詢與分析方法稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料採礦(Data mining)"
+        },
+        {
+          "key": "B",
+          "text": "模擬(Simulation)"
+        },
+        {
+          "key": "C",
+          "text": "產品生命週期管理系統(PLM)"
+        },
+        {
+          "key": "D",
+          "text": "特定需求報表(Ad-Hoc Reporting)。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 105,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "以銷售與配銷的功能觀點，商業智慧(BI)系統可以分成四層次架構，在分析方法架構中用來 分析 What-if的問題的方法稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "主動式通知(Pro-Active Alert)"
+        },
+        {
+          "key": "B",
+          "text": "模擬(Simulation)"
+        },
+        {
+          "key": "C",
+          "text": "產品生命週期管理系統(PLM)"
+        },
+        {
+          "key": "D",
+          "text": "線上分析處理(OLAP)。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "以銷售與配銷的功能觀點，商業智慧(BI)系統可以分成四層次架構，在分析方法架構中一種 被視為敏感度分析(Sensitivity Analysis)的方法稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "模擬(Simulation)"
+        },
+        {
+          "key": "B",
+          "text": "產品生命週期管理系統(PLM)"
+        },
+        {
+          "key": "C",
+          "text": "主動式通知(Pro-Active Alert)"
+        },
+        {
+          "key": "D",
+          "text": "特定需求報表(Ad-Hoc Reporting)。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 107,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "以銷售與配銷的功能觀點，商業智慧(BI)系統可以分成四層次架構，在分析方法架構中可以 從大量資料中揭露隱藏於其中具有特殊關聯性資訊的過程的方法稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "主動式通知(Pro-Active Alert)"
+        },
+        {
+          "key": "B",
+          "text": "線上分析處理(OLAP)"
+        },
+        {
+          "key": "C",
+          "text": "資料採礦(Data mining)"
+        },
+        {
+          "key": "D",
+          "text": "模擬(Simulation)。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "在顧客終身價值分析中，企業可以針對現有以及潛在的終身價值，以矩陣的方式進行定位， 以對不同的顧客採不同的策略，如果現有的價值低，且潛在的價值低時，則必須採取哪一種行銷方 法",
+      "options": [
+        {
+          "key": "A",
+          "text": "投資(Investment)"
+        },
+        {
+          "key": "B",
+          "text": "保留(Retain)"
+        },
+        {
+          "key": "C",
+          "text": "放棄(Give-Up)"
+        },
+        {
+          "key": "D",
+          "text": "再造(Re-engineering)。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "在商業智慧(BI)分析應用之層級中，可以幫助企業將分析結果展開成行動方案或策略且價值 性最高的層級稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "規劃(Plan)"
+        },
+        {
+          "key": "B",
+          "text": "衡量與瞭解(Measure & Understand)"
+        },
+        {
+          "key": "C",
+          "text": "預測(Predict)"
+        },
+        {
+          "key": "D",
+          "text": "最佳化(Optimize)。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 110,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "下列哪一選項是企業行為的核心，更是創造差異化與增強獲利能力之關鍵所在",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務"
+        },
+        {
+          "key": "B",
+          "text": "行銷"
+        },
+        {
+          "key": "C",
+          "text": "生產"
+        },
+        {
+          "key": "D",
+          "text": "預算。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析經常採用具有整合性分析的 RFM 方法，其中Recency是指",
+      "options": [
+        {
+          "key": "A",
+          "text": "消費時間"
+        },
+        {
+          "key": "B",
+          "text": "消費金額"
+        },
+        {
+          "key": "C",
+          "text": "消費頻率"
+        },
+        {
+          "key": "D",
+          "text": "消費人數。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 112,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析經常採用具有整合性分析的 RFM 方法，其中Frequency是指",
+      "options": [
+        {
+          "key": "A",
+          "text": "消費金額"
+        },
+        {
+          "key": "B",
+          "text": "消費時間"
+        },
+        {
+          "key": "C",
+          "text": "消費頻率"
+        },
+        {
+          "key": "D",
+          "text": "消費折扣。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 113,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析經常採用具有整合性分析的 RFM 方法，其中Monetary是指",
+      "options": [
+        {
+          "key": "A",
+          "text": "消費時間"
+        },
+        {
+          "key": "B",
+          "text": "消費變異"
+        },
+        {
+          "key": "C",
+          "text": "消費頻率"
+        },
+        {
+          "key": "D",
+          "text": "消費金額。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 114,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析經常採用 ABC 分類的整合性分析法，下列哪些選項通常可以當作區隔分析的 維度將企業現在的顧客分為 ABC 三種群組 (1) 利潤 (2) 服務水準 (3) 存貨 (4) 營收 (5) 缺貨率 (6) 安全存貨 (7) 顧客人數",
+      "options": [
+        {
+          "key": "A",
+          "text": "256"
+        },
+        {
+          "key": "B",
+          "text": "14"
+        },
+        {
+          "key": "C",
+          "text": "347"
+        },
+        {
+          "key": "D",
+          "text": "67。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析中經常採用整合性分析法的消費時間頻率與金額分析(RFM)，而該顧客最後下 訂單的時間為何，是指哪一種分析",
+      "options": [
+        {
+          "key": "A",
+          "text": "消費時間"
+        },
+        {
+          "key": "B",
+          "text": "消費金額"
+        },
+        {
+          "key": "C",
+          "text": "消費頻率"
+        },
+        {
+          "key": "D",
+          "text": "消費比例。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析中經常採用整合性分析法的消費時間頻率與金額分析(RFM)，而該顧客下了多 少數量的訂單，是指哪一種分析",
+      "options": [
+        {
+          "key": "A",
+          "text": "消費變異"
+        },
+        {
+          "key": "B",
+          "text": "消費頻率"
+        },
+        {
+          "key": "C",
+          "text": "消費退回"
+        },
+        {
+          "key": "D",
+          "text": "消費時間。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析中經常採用整合性分析法的消費時間頻率與金額分析(RFM)，而該顧客總共花 了多少金額，是指哪一種分析",
+      "options": [
+        {
+          "key": "A",
+          "text": "一般分析"
+        },
+        {
+          "key": "B",
+          "text": "消費頻率"
+        },
+        {
+          "key": "C",
+          "text": "消費金額"
+        },
+        {
+          "key": "D",
+          "text": "消費變異。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客終身價值分析指標公式為[ (該顧客所帶來的收益) / (獲取或保留該顧客所花費的成本) ] * 100%，請問當獲取或保留該顧客所花費的成本不變，且該顧客所帶來的收益如果越大，則表示",
+      "options": [
+        {
+          "key": "A",
+          "text": "顧客終身價值越高"
+        },
+        {
+          "key": "B",
+          "text": "顧客終身價值越低"
+        },
+        {
+          "key": "C",
+          "text": "顧客終身價值不變"
+        },
+        {
+          "key": "D",
+          "text": "顧客終身價值無法估計。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客終身價值分析指標公式為[ (該顧客所帶來的收益) / (獲取或保留該顧客所花費的成本) ] * 100%，請問當該顧客所帶來的收益不變，且獲取或保留該顧客所花費的成本如果越大，則表示",
+      "options": [
+        {
+          "key": "A",
+          "text": "顧客終身價值不變"
+        },
+        {
+          "key": "B",
+          "text": "顧客終身價值越低"
+        },
+        {
+          "key": "C",
+          "text": "顧客終身價值無法估計"
+        },
+        {
+          "key": "D",
+          "text": "顧客終身價值越高。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "根據產品存貨的價值，計算某一特定期間(年或月)，產品存貨被消耗完，然後再被補貨的次 數，此定義為下列哪一種 KPI",
+      "options": [
+        {
+          "key": "A",
+          "text": "產品存貨呆滯料比例"
+        },
+        {
+          "key": "B",
+          "text": "產品存貨週轉率"
+        },
+        {
+          "key": "C",
+          "text": "產品可供應存貨天數"
+        },
+        {
+          "key": "D",
+          "text": "產品存貨短缺比例。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "在一定期間內，成功完成訂單達交的銷售訂單總量與該企業所有銷售訂單總量的比例，此定 義是指下列哪一種 KPI",
+      "options": [
+        {
+          "key": "A",
+          "text": "訂單項目達交率"
+        },
+        {
+          "key": "B",
+          "text": "完美訂單達交率"
+        },
+        {
+          "key": "C",
+          "text": "訂單達交率"
+        },
+        {
+          "key": "D",
+          "text": "未交貨訂單總值。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "企業用來衡量公司用多少的銷售活動，才能得到一張銷售訂單的績效指標稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "銷售活動成功率"
+        },
+        {
+          "key": "B",
+          "text": "新產品銷售比例"
+        },
+        {
+          "key": "C",
+          "text": "平均銷售人員費用"
+        },
+        {
+          "key": "D",
+          "text": "即時報價能力。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "企業用來衡量產品存貨配置給特定配銷通路的比例的績效指標稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "通路利潤"
+        },
+        {
+          "key": "B",
+          "text": "通路管理成本"
+        },
+        {
+          "key": "C",
+          "text": "通路存貨"
+        },
+        {
+          "key": "D",
+          "text": "產品可供應存貨天數。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 124,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析中經常採用消費時間頻率與金額分析(RFM)，而在消費頻率分析中，當顧客購 買次數越多時，則企業會認為其忠誠度與顧客價值的大小為何",
+      "options": [
+        {
+          "key": "A",
+          "text": "忠誠度高、顧客價值高"
+        },
+        {
+          "key": "B",
+          "text": "忠誠度高、顧客價值低"
+        },
+        {
+          "key": "C",
+          "text": "忠誠度低、顧客價值高"
+        },
+        {
+          "key": "D",
+          "text": "忠誠度低、顧客價值低。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 125,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "顧客區隔分析中經常採用消費時間頻率與金額分析(RFM)，而在消費時間分析中，一般而 言，最近購買過產品的顧客對公司有較高的印象，請問下列哪一選項正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "所以該顧客會因此流失"
+        },
+        {
+          "key": "B",
+          "text": "所以該顧客有較高的可能不會介紹朋友購買"
+        },
+        {
+          "key": "C",
+          "text": "所以該顧客有較低的可能再重複購買"
+        },
+        {
+          "key": "D",
+          "text": "所以該顧客有較高的可能再重複購買。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 126,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "企業用來衡量在特定期間內，平均一位銷售人員的花費為何的績效指標稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "銷售目標達成率"
+        },
+        {
+          "key": "B",
+          "text": "平均銷售人員費用"
+        },
+        {
+          "key": "C",
+          "text": "訂單項目達交率"
+        },
+        {
+          "key": "D",
+          "text": "即時報價能力。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "企業用來計算持有該項產品存貨，所衍生的各項成本總合稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "產品存貨持有成本"
+        },
+        {
+          "key": "B",
+          "text": "產品銷售成本"
+        },
+        {
+          "key": "C",
+          "text": "產品缺貨成本"
+        },
+        {
+          "key": "D",
+          "text": "產品平均成本。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 128,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "在一企業中現有以及未來的產品存貨，無法用以履行現有以及未來的銷售需求的總量占產品 存貨總量的比例稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "產品可供應存貨天數"
+        },
+        {
+          "key": "B",
+          "text": "產品存貨週轉率"
+        },
+        {
+          "key": "C",
+          "text": "產品存貨呆滯料比例"
+        },
+        {
+          "key": "D",
+          "text": "訂單達交率。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 129,
+      "chapterId": 6,
+      "chapterTitle": "銷售與配銷分析",
+      "stem": "下列何者不是銷售人力分析報表之整合性報表的分析維度",
+      "options": [
+        {
+          "key": "A",
+          "text": "時間"
+        },
+        {
+          "key": "B",
+          "text": "金額"
+        },
+        {
+          "key": "C",
+          "text": "銷售通路"
+        },
+        {
+          "key": "D",
+          "text": "人力組織。 第 7 章 採購之關鍵績效指標-24題"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 130,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "根據Reck 與 Long(1988)的研究，關於企業組織中的採購部門其功能與角色，下列何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以區分成被動、獨立、支持以及整合資訊等四個階段"
+        },
+        {
+          "key": "B",
+          "text": "可以區分成被動、獨立以及支持等三個階段"
+        },
+        {
+          "key": "C",
+          "text": "可以區分成被動、整合資訊以及支持等三個階段"
+        },
+        {
+          "key": "D",
+          "text": "可以區分成主動與獨立兩個階段。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 131,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "關於採購商業智慧的需求說明，下列哪一選項錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "瞭解採購品到貨狀況與到貨品質，進行採購績效分析"
+        },
+        {
+          "key": "B",
+          "text": "進行採購研究，降低採購風險"
+        },
+        {
+          "key": "C",
+          "text": "評估供應商績效，進行供應商管理"
+        },
+        {
+          "key": "D",
+          "text": "評估客戶績效，進行客戶管理。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 132,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "下列對於採購部門首要的採購商業智慧需求的描述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "分析到貨品質與評估採購品對生產品質之影響"
+        },
+        {
+          "key": "B",
+          "text": "持續追蹤採購品交貨狀況"
+        },
+        {
+          "key": "C",
+          "text": "針對採購品交貨狀況、分析到貨品質、評估採購品對生產品質之影響等三項工作進行改善措施"
+        },
+        {
+          "key": "D",
+          "text": "研究併購其他上游供應商公司是否可行。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 133,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "採購部門應針對每次採購案，評估供應商之供應績效，下列哪一供應績效評估選項會直接影 響生產品質與生產時程 (1) 供應商的供應品質 (2) 供應商的交貨時程 (3) 客戶的產品收貨時間 (4) 消費者抱怨",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "14"
+        },
+        {
+          "key": "C",
+          "text": "23"
+        },
+        {
+          "key": "D",
+          "text": "34。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 134,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "下列何者對於評估供應商績效，進行供應商管理的描述錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "從不同角度深入分析現有與潛在供應商的關鍵能力與供應價格，以及比較不同採購商品組合， 也是採購部門所需的商業智慧"
+        },
+        {
+          "key": "B",
+          "text": "供應商數目的多寡會直接影響採購品的供應風險與採購績效"
+        },
+        {
+          "key": "C",
+          "text": "供應商的供應品質與交貨時程，均直接影響生產品質與生產時程"
+        },
+        {
+          "key": "D",
+          "text": "供應商數目的多寡絕對不會直接影響採購品的供應風險與採購績效。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 135,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "商業智慧無法自動產生，必須透過哪一項工具輔以分析工具，以將資料產生成為有用之資訊",
+      "options": [
+        {
+          "key": "A",
+          "text": "智慧管理"
+        },
+        {
+          "key": "B",
+          "text": "知識管理"
+        },
+        {
+          "key": "C",
+          "text": "資料表管理"
+        },
+        {
+          "key": "D",
+          "text": "庫存管理。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 136,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "有關採購商業智慧的分析，可運用哪些分析方式進行 (1)事前分析 (2) 事後分析 (3) 即時分 析 (4) 縱向分析 (5) 橫向分析 (6) 動態分析",
+      "options": [
+        {
+          "key": "A",
+          "text": "13"
+        },
+        {
+          "key": "B",
+          "text": "24"
+        },
+        {
+          "key": "C",
+          "text": "235"
+        },
+        {
+          "key": "D",
+          "text": "156。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 137,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "有關採購商業智慧的分析方式中，根據當下的需求，運用線上分析處理 (OLAP) 隨時調整分 析的角度，可以從綜觀資料向下探查 (Drill down)，或由細部資料向上收攏 (Drill up)，成為彙總資 料，亦可以進行交叉分析 (Slice and dice)，提供跨單位的比較，此分析方式為",
+      "options": [
+        {
+          "key": "A",
+          "text": "即時分析"
+        },
+        {
+          "key": "B",
+          "text": "動態分析"
+        },
+        {
+          "key": "C",
+          "text": "事後分析"
+        },
+        {
+          "key": "D",
+          "text": "橫向分析。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 138,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "企業的採購相關活動除了請購之外，還包含下列哪些不同流程與階段 (1) 內稽內控 (2) 採購 (3) 送貨 (4) 行銷 (5) 驗貨 (6) 收貨",
+      "options": [
+        {
+          "key": "A",
+          "text": "1234"
+        },
+        {
+          "key": "B",
+          "text": "2356"
+        },
+        {
+          "key": "C",
+          "text": "246"
+        },
+        {
+          "key": "D",
+          "text": "135。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "在請購的績效指標架構中庫存績效是一個重要向度，其中庫存週轉率低則代表績效不佳，也 容易造成呆滯物料，呆滯物料是指物料存量多，超過需求的耗用量，至於為何會產生呆滯物料，其 原因約可分為外部原因和內部原因二種，下列哪一項目屬於外部原因",
+      "options": [
+        {
+          "key": "A",
+          "text": "採購數量超過所需"
+        },
+        {
+          "key": "B",
+          "text": "製造的工程變更"
+        },
+        {
+          "key": "C",
+          "text": "採購錯誤"
+        },
+        {
+          "key": "D",
+          "text": "客戶更改訂單甚或取消已經下訂的訂單。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 140,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "在請購的績效指標架構中庫存績效是一個重要向度，其中庫存週轉率低則代表績效不佳，也 容易造成呆滯物料，呆滯物料是指物料存量多，超過需求的耗用量，至於為何會產生呆滯物料，其 原因約可分為外部原因和內部原因二種，下列一項目不屬於內部原因",
+      "options": [
+        {
+          "key": "A",
+          "text": "採購數量超過所需"
+        },
+        {
+          "key": "B",
+          "text": "製造的工程變更"
+        },
+        {
+          "key": "C",
+          "text": "採購錯誤"
+        },
+        {
+          "key": "D",
+          "text": "供應商供貨品的品質不符需求，亦或是顧客退貨。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 141,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "在請購的績效指標架構中庫存績效是一個重要向度，其中庫存週轉率低則代表績效不佳，也 容易造成呆滯物料，呆滯物料是指物料存量多，超過需求的耗用量，至於為何會產生呆滯物料，其 原因約可分為外部原因和內部原因二種，下列哪一項屬於內部原因",
+      "options": [
+        {
+          "key": "A",
+          "text": "剩餘的試驗材料或生產材料"
+        },
+        {
+          "key": "B",
+          "text": "顧客退貨"
+        },
+        {
+          "key": "C",
+          "text": "客戶取消已經下訂的訂單"
+        },
+        {
+          "key": "D",
+          "text": "客戶更改訂單。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 142,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "在供應商供應績效架構中，可包含品質與交期、技術二個向度，下列哪一個指標不屬於技術 向度",
+      "options": [
+        {
+          "key": "A",
+          "text": "技術配合能力"
+        },
+        {
+          "key": "B",
+          "text": "製造能力"
+        },
+        {
+          "key": "C",
+          "text": "機器設備"
+        },
+        {
+          "key": "D",
+          "text": "交貨率。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 143,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "在維護供應商資料方面，其維護成本亦依供應商資料電子化程度而有不同，供應商資料電子 化程度可分成四類，而最高電子化程度是指",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用整合性的電子化建檔"
+        },
+        {
+          "key": "B",
+          "text": "使用零散式的電子化建檔"
+        },
+        {
+          "key": "C",
+          "text": "使用表單建檔"
+        },
+        {
+          "key": "D",
+          "text": "供應商資料沒有建立電子化檔案。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 144,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "採購品平均運送的時間是常見的採購績效指標，採購品平均運送的時間 = 從下採購單至收 貨之間的天數加總 / 運送次數，關於此指標之相關描述，下列選項何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "企業可以透過平均運送的時間績效指標，做下出貨單的時間點評估"
+        },
+        {
+          "key": "B",
+          "text": "企業可以透過平均運送的時間績效指標，對客戶貢獻能力進行評估"
+        },
+        {
+          "key": "C",
+          "text": "指某採購品從下達採購單開始，到採購品送達為止，其經過的時間總值"
+        },
+        {
+          "key": "D",
+          "text": "企業可以透過平均運送的時間績效指標，做下報價單的時間點評估。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 145,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "採購品交貨率是常見的採購績效指標，採購品交貨率 = (收貨數量 / 採購單上的數量) * 100%，關於此指標之相關描述，下列選項何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "該指標數值越小，代表該採購單上的商品多數都已經被送達"
+        },
+        {
+          "key": "B",
+          "text": "該指標數值越大，代表該採購單還有許多商品未送達"
+        },
+        {
+          "key": "C",
+          "text": "該指標數值越大，代表該銷售單上的商品多數都已經送達客戶手中"
+        },
+        {
+          "key": "D",
+          "text": "其意涵是某一採購單被滿足的程度。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 146,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "在供應商供應績效指標中如果供應績效表現相對良好，但採購金額不大，通常企業會如何管 控此類供應商",
+      "options": [
+        {
+          "key": "A",
+          "text": "暫時不需太多關注"
+        },
+        {
+          "key": "B",
+          "text": "需要採購部門關注追蹤與後續研究，故應根據實際情況，儘快做出決定是否尋找替代供應商"
+        },
+        {
+          "key": "C",
+          "text": "可直接採用更換供應商的策略以調整"
+        },
+        {
+          "key": "D",
+          "text": "需要採購部門關注追蹤與後續研究，故應根據實際情況，採取措施要求供應商限期進行改善。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 147,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "採購品交貨率是常見的採購績效指標 ，採購品交貨率 = (收貨數量 / 採購單上的數量) * 100%，關於此指標之相關描述，下列選項何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "採購品交貨率達100%表示該料尚未到貨完畢"
+        },
+        {
+          "key": "B",
+          "text": "採購品交貨率達50%表示該料已經到貨完畢"
+        },
+        {
+          "key": "C",
+          "text": "通常收貨數量會小於或等於採購單上的數量"
+        },
+        {
+          "key": "D",
+          "text": "通常採購單上的數量會小於收貨數量。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 148,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "有關績效指標採購品平均運送的時間的敘述，何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "指標數值越大，代表平均運送的時間越長"
+        },
+        {
+          "key": "B",
+          "text": "指某採購品從下達採購單開始，到採購品送達為止，其經過的時間總值"
+        },
+        {
+          "key": "C",
+          "text": "可用來評估供應商的供貨效率"
+        },
+        {
+          "key": "D",
+          "text": "指標數值越小，代表平均運送的時間越長。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 149,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "Monczka等人主張以採購總成本比較供應商之間的績效，以下有關採購總成本之描述何者是 正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "指標結果值越高則代表採購績效愈佳"
+        },
+        {
+          "key": "B",
+          "text": "最佳評估結果是100"
+        },
+        {
+          "key": "C",
+          "text": "指標結果值越高則代表採購績效愈差"
+        },
+        {
+          "key": "D",
+          "text": "指標值介於正1與負 1 之間。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 150,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "供應商績效評估是個頗為複雜的過程，以下關於供應商績效評估之敘述，何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "量化評估資料可由電腦從個別相關系統中自動萃取並運算取得"
+        },
+        {
+          "key": "B",
+          "text": "質化評估資料可由訪談資料得到"
+        },
+        {
+          "key": "C",
+          "text": "供應商績效評估之量化質化資料，建議除了量化的資料，亦可收集質化的資料，以進行綜合評 估"
+        },
+        {
+          "key": "D",
+          "text": "只需要收集量化資料，無需要收集質化資料就可以完整評估供應商績效。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 151,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "在顧客導向與消費意識抬頭的現代環境中，採購－供應關係中，還有另外二項採購績效構面 亦被多位學者提出，包含保持良好供應商關係以及",
+      "options": [
+        {
+          "key": "A",
+          "text": "正確迅速的處理訂單"
+        },
+        {
+          "key": "B",
+          "text": "滿足顧客需求"
+        },
+        {
+          "key": "C",
+          "text": "準時交貨"
+        },
+        {
+          "key": "D",
+          "text": "降低採購成本。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 152,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "對於1970到1980 年代採購工作的主要重心與重要工作任務，下列哪一選項是錯誤的描述",
+      "options": [
+        {
+          "key": "A",
+          "text": "採購工作的重心是在採購部門的交易作業"
+        },
+        {
+          "key": "B",
+          "text": "如何降低採購成本是重要工作任務"
+        },
+        {
+          "key": "C",
+          "text": "強化與供應商的議價能力是重要工作任務"
+        },
+        {
+          "key": "D",
+          "text": "追求採購品的最大價值。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 153,
+      "chapterId": 7,
+      "chapterTitle": "採購之關鍵績效指標",
+      "stem": "將儲存在資訊系統中龐大的生產或交易相關的原始資料，透過分析以轉成有用的資訊或知 識，以提供企業內部各層級管理者，進行即時決策之參考依據，稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料探勘(Data Mining)"
+        },
+        {
+          "key": "B",
+          "text": "電子商務推薦系統(Recommendation Systems)"
+        },
+        {
+          "key": "C",
+          "text": "拍賣平台名譽系統(Reputation Systems)"
+        },
+        {
+          "key": "D",
+          "text": "商業智慧(BI)。 第 8 章 財務會計模組之關鍵績效指標-17題"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 154,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列哪些是ERP 系統對於財務分析的助益 (1) ERP 系統能簡化會計處理而即時提供整合性資 料 (2) ERP 系統即時提供財務分析資訊 (3) ERP 系統能自動提供財務問題的解決方法 (4) ERP 系統 可以作更精細的財務分析",
+      "options": [
+        {
+          "key": "A",
+          "text": "234"
+        },
+        {
+          "key": "B",
+          "text": "134"
+        },
+        {
+          "key": "C",
+          "text": "124"
+        },
+        {
+          "key": "D",
+          "text": "1234。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 155,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列哪些敘述是正確的 (1) 損益表係用以表達某一時點的財務狀況 (2) 現金流量表主要係報 導在一特定期間內，有關企業之營業活動、投資活動及融資活動之現金流入及流出情形 (3) 期末 應作調整分錄而將收入與費用的帳戶調整成可以真正代表當期之收入與費用，以便正確地計算當期 損益 (4) 雖然ERP 系統可以將前端的交易資料即時、自動過帳，但仍須以單據層層傳送而再由財 務會計人員將交易資料輸入會計系統",
+      "options": [
+        {
+          "key": "A",
+          "text": "24"
+        },
+        {
+          "key": "B",
+          "text": "23"
+        },
+        {
+          "key": "C",
+          "text": "134"
+        },
+        {
+          "key": "D",
+          "text": "1234。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 156,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列哪一種報表是在表達公司某一時點的財務狀況，是一種靜態的財務報表",
+      "options": [
+        {
+          "key": "A",
+          "text": "股東權益變動表"
+        },
+        {
+          "key": "B",
+          "text": "資產負債表"
+        },
+        {
+          "key": "C",
+          "text": "現金流量表"
+        },
+        {
+          "key": "D",
+          "text": "損益表。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 157,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列哪一種財務分析只牽涉到損益表上的數字",
+      "options": [
+        {
+          "key": "A",
+          "text": "經營能力分析"
+        },
+        {
+          "key": "B",
+          "text": "財務結構分析"
+        },
+        {
+          "key": "C",
+          "text": "償債能力分析"
+        },
+        {
+          "key": "D",
+          "text": "槓桿度分析。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 158,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列哪些財務分析可能同時牽涉到資產負債表與損益表上的數字 (1) 經營能力分析 (2) 財務 結構分析 (3) 槓桿度分析 (4) 償債能力分析 (5) 獲利能力分析",
+      "options": [
+        {
+          "key": "A",
+          "text": "13"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "145"
+        },
+        {
+          "key": "D",
+          "text": "1234。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 159,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列哪一項KPI值可用於評估客戶帳款收取情況，以瞭解客戶是否可能發生超過繳款期限而 產生違約之情況，或可能發生呆帳之情況",
+      "options": [
+        {
+          "key": "A",
+          "text": "應收款項週轉率"
+        },
+        {
+          "key": "B",
+          "text": "存貨週轉率"
+        },
+        {
+          "key": "C",
+          "text": "應付款項週轉率"
+        },
+        {
+          "key": "D",
+          "text": "現金變現日數。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 160,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列企業主要財務報表之敘述何者有誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "資產負債表(Balance Sheet)係報導企業在不定時日之動產、負債、債主權益等財務分析之報表"
+        },
+        {
+          "key": "B",
+          "text": "股東權益變動表(Statement Of Changes In Stockholders' Equity)主要係表達一個會計期間內股東 權益的變動情況"
+        },
+        {
+          "key": "C",
+          "text": "損益表(Income Statement)旨在報告企業在一定期間的經營損益狀況"
+        },
+        {
+          "key": "D",
+          "text": "現金流量表(Statement Of Cash Flow)主要報導在一特定期間內，有關企業之營業活動、投資活 動及融資活動之現金流入及流出情形。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 161,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "財務會計的最終目的是編製財務報表，其基本的會計循環是以編製財務報表並結帳為終點， 下列選項中有關基本會計循環之部份步驟的順序何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "在日記簿作交易分錄→試算→過帳到分類帳→期末調整"
+        },
+        {
+          "key": "B",
+          "text": "在日記簿作交易分錄→過帳到分類帳→試算→期末調整"
+        },
+        {
+          "key": "C",
+          "text": "期末調整→過帳到分類帳→試算→在日記簿作交易分錄"
+        },
+        {
+          "key": "D",
+          "text": "試算→在日記簿作交易分錄→期末調整→過帳到分類。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 162,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列關於經營能力之指標名稱(KPI)之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "存貨週轉率(Inventory Turnover)來衡量存貨週轉(銷售)的速度，其係以銷貨成本除以平均存貨"
+        },
+        {
+          "key": "B",
+          "text": "應付款項週轉率(Payable Turnover Ratio)係用於應付款項付款速度的一項指標，係計算一定期間 內應付款項平均付款速度"
+        },
+        {
+          "key": "C",
+          "text": "股東權益週轉率(Stockholders’ Equity Turnover )表示每1元股東權益，可以產生多少銷貨收 入"
+        },
+        {
+          "key": "D",
+          "text": "總資產週轉率(Total Assets Turnover)代表每運用 1元借款可產生的採購淨額。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 163,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列有關流動比率敘述，何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "流動比率愈大代表短期償債能力愈強"
+        },
+        {
+          "key": "B",
+          "text": "流動比率太小容易造成資金週轉不靈的危險"
+        },
+        {
+          "key": "C",
+          "text": "流動比率越大越好，這表示企業在經營上沒有任何問題"
+        },
+        {
+          "key": "D",
+          "text": "流動比率應該多大才恰當，應視產業而定。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 164,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列有關企業經營能力分析之 KPI敘述，何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "經營能力KPI是用來瞭解企業運轉速度的快慢程度"
+        },
+        {
+          "key": "B",
+          "text": "經營能力分析 KPI中的應收帳款週轉率跟存貨週轉率是用來衡量企業是否有效運用流動資產"
+        },
+        {
+          "key": "C",
+          "text": "經營能力分析KPI中的固定資產週轉率是用來衡量企業是否有效用固定資產"
+        },
+        {
+          "key": "D",
+          "text": "經營能力分析KPI中的總資產週轉率是用來衡量企業是否有效用股東投入的資金。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 165,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列何者不是現金流量表(Statements of Cash Flows)包含的項目",
+      "options": [
+        {
+          "key": "A",
+          "text": "營業活動之現金流量"
+        },
+        {
+          "key": "B",
+          "text": "預付費用之現金流量"
+        },
+        {
+          "key": "C",
+          "text": "投資活動之現金流量"
+        },
+        {
+          "key": "D",
+          "text": "融資活動之現金流量。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列關於基本會計循環之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "其步驟為「在日記簿作交易分錄」→「過帳到分類帳」→「試算」→「期末調整」→「編制財 務報表」→「結帳」→「開帳」"
+        },
+        {
+          "key": "B",
+          "text": "平時會計工作包含交易事項、會計憑證、分類帳、日記簿"
+        },
+        {
+          "key": "C",
+          "text": "期末會計工作事項包含調整前試算表、財務報表、結帳後日記簿與分類帳、結帳後試算表"
+        },
+        {
+          "key": "D",
+          "text": "會計循環以編製出企業結構並結算為終點。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 167,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列何者不是償還能力分析之 KPI",
+      "options": [
+        {
+          "key": "A",
+          "text": "營運資金"
+        },
+        {
+          "key": "B",
+          "text": "流動比率"
+        },
+        {
+          "key": "C",
+          "text": "毛利率"
+        },
+        {
+          "key": "D",
+          "text": "利息保障倍數。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 168,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "下列有關殖利率的敘述，何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "殖利率代表每花一元所購買的股票，可得之股利金額"
+        },
+        {
+          "key": "B",
+          "text": "如果某家公司股票之殖利率高於銀行存款利率，表示購買該公司的股票所得到的股利不如存入 銀行所得的利息"
+        },
+        {
+          "key": "C",
+          "text": "如果某公司的每股市價為 80元，每股股利為2元，則該公司的殖利率為 2.5%"
+        },
+        {
+          "key": "D",
+          "text": "殖利率為價格與股利比的倒數， 1 / (價格與股利比)即為殖利率。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 169,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "衡量ERP 系統導入成功與否的一項構面為系統使用，即組織使用 ERP 系統的程度，關於 ERP 財務模組(FI)有關之作業性中的 ERP 系統故障停機時間指標的描述，下列何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "ERP 系統故障停機時間指標是屬於平衡計分卡中的學習與成長構面"
+        },
+        {
+          "key": "B",
+          "text": "ERP 系統故障停機時間指標是指當期 ERP 系統故障停機時間長度"
+        },
+        {
+          "key": "C",
+          "text": "ERP 系統故障停機時間指標是屬於平衡計分卡中的財務構面"
+        },
+        {
+          "key": "D",
+          "text": "ERP 系統故障停機時間指標是屬於平衡計分卡中的顧客構面。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 170,
+      "chapterId": 8,
+      "chapterTitle": "財務會計模組之關鍵績效指標",
+      "stem": "關於應收帳款管理模組有關之作業性 KPI的描述，下列何者正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "主要顧客退貨比率指標是屬於平衡計分卡中的學習與成長構面"
+        },
+        {
+          "key": "B",
+          "text": "主要顧客退貨比率 = 主要顧客退貨次數 / 主要顧客訂單總數，因此，當主要顧客訂單總數越 多，主要顧客退貨次數越少，則主要顧客退貨比率越低"
+        },
+        {
+          "key": "C",
+          "text": "主要顧客退貨比率 = 主要顧客退貨次數 / 主要顧客訂單總數，因此，當主要顧客訂單總數越 多，主要顧客退貨次數越少，則主要顧客退貨比率越高"
+        },
+        {
+          "key": "D",
+          "text": "主要顧客退貨比率指標是屬於平衡計分卡中的內部流程。 第 9 章 商業智慧——生產規劃與控制-23題"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "請問下列哪一個圖表中，詳列多維度分析中維度資訊",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data Flow"
+        },
+        {
+          "key": "B",
+          "text": "Star Schema"
+        },
+        {
+          "key": "C",
+          "text": "要因圖"
+        },
+        {
+          "key": "D",
+          "text": "途程。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 172,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "下列何者在生產活動上會佔用資源卻沒有附加價值 (1) 籌置 (2) 銷售 (3) 處理 (4) 採購 (5) 拆卸",
+      "options": [
+        {
+          "key": "A",
+          "text": "23"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "34"
+        },
+        {
+          "key": "D",
+          "text": "14。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "請依先後順序排列下列工單相關時間 (1) 交期 (2) 發放日 (3) 生產開始 (4) 生產完工 (5) 工單完工",
+      "options": [
+        {
+          "key": "A",
+          "text": "23451"
+        },
+        {
+          "key": "B",
+          "text": "15234"
+        },
+        {
+          "key": "C",
+          "text": "12345"
+        },
+        {
+          "key": "D",
+          "text": "23541。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 174,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "商業智慧(BI)在生產規劃與控制上，透過分析所留存下來的交易資料(Transactional Data)，公 司可以瞭解現況與改善未來，下列何者為交易資料 (1) 物料資料主檔 (2) 物料清單 (3) 途程 (4) 計劃中工單 (5) 生產工單",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "45"
+        },
+        {
+          "key": "C",
+          "text": "12345"
+        },
+        {
+          "key": "D",
+          "text": "135。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 175,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "在生產規劃與控制上，ERP 系統利用了靜態資料，進一步產生交易資料(Transactional Data)， 下列何者為靜態資料 (1) 物料資料主檔 (2) 物料清單 (3) 途程 (4) 計劃中工單 (5) 生產工單",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "45"
+        },
+        {
+          "key": "C",
+          "text": "12345"
+        },
+        {
+          "key": "D",
+          "text": "135。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 176,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "市場需求量起伏變動，當需求增加時，公司有能力提升生產能量，滿足顧客量的增加之需 求，但需求減少時，公司也有能力縮小其生產規模之能力，以上所述為下列何作業策略之競爭構面",
+      "options": [
+        {
+          "key": "A",
+          "text": "品質"
+        },
+        {
+          "key": "B",
+          "text": "交貨速度"
+        },
+        {
+          "key": "C",
+          "text": "交貨時間變異"
+        },
+        {
+          "key": "D",
+          "text": "能調整公司內部資源而依顧客需求量改變而改變的能力。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 177,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "在某些市場，公司有能力比其競爭者更快速的交貨至為重要；為了能於此市場競爭，公司必 須有能力掌控生產步驟之時間，並縮短其接單至交貨至顧客之時間，以上所述為下列何作業策略之 競爭構面",
+      "options": [
+        {
+          "key": "A",
+          "text": "品質"
+        },
+        {
+          "key": "B",
+          "text": "交貨速度"
+        },
+        {
+          "key": "C",
+          "text": "交貨時間變異"
+        },
+        {
+          "key": "D",
+          "text": "能調整公司內部資源而依顧客需求量改變而改變的能力。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 178,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "要能因應市場對樣式與種類的改變，公司須有較競爭者更快速發展新產品並將其導入生產線 量產的能力，以上所述為下列何作業策略之競爭構面",
+      "options": [
+        {
+          "key": "A",
+          "text": "交貨速度"
+        },
+        {
+          "key": "B",
+          "text": "交貨時間變異"
+        },
+        {
+          "key": "C",
+          "text": "能調整公司內部資源而依顧客需求量改變而改變的能力"
+        },
+        {
+          "key": "D",
+          "text": "彈性與新產品引入市場的速度。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 179,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "在某些市場，能於下游買者要求的交貨時間準時交貨，不早也不晚的能力，常為一獲得顧客 訂單的重要資格或條件，以上所述為下列何作業策略之競爭構面",
+      "options": [
+        {
+          "key": "A",
+          "text": "交貨速度"
+        },
+        {
+          "key": "B",
+          "text": "交貨時間變異"
+        },
+        {
+          "key": "C",
+          "text": "能調整公司內部資源而依顧客需求量改變而改變的能力"
+        },
+        {
+          "key": "D",
+          "text": "彈性與新產品引入市場的速度。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 180,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "一公司其成本/價格需低到某一程度，品質必須有某一水準以上，交貨速度必須快到某幾天內 等等，如此公司才得以進入市場競爭，符合顧客對產品的基本要求，以上所述指的是",
+      "options": [
+        {
+          "key": "A",
+          "text": "符合資格構面"
+        },
+        {
+          "key": "B",
+          "text": "獲取訂單構面"
+        },
+        {
+          "key": "C",
+          "text": "總競爭構面"
+        },
+        {
+          "key": "D",
+          "text": "公司市場位階構面。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 181,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "公司在某一市場中，可藉由某些優異構面的表現而獲得顧客的青睞，最終取得顧客訂單的構 面，以上所述指的是",
+      "options": [
+        {
+          "key": "A",
+          "text": "符合資格構面"
+        },
+        {
+          "key": "B",
+          "text": "獲取訂單構面"
+        },
+        {
+          "key": "C",
+          "text": "總競爭構面"
+        },
+        {
+          "key": "D",
+          "text": "公司市場位階構面。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 182,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "公司常使用何種觀念，以進行其資源之配置與使用，達到管理細緻化的要求，亦即一單位內 有許多更小的單位(或生產線)，每一小單位有其獨特的作業策略，以指導其生產資源之使用，讓生 產規劃與控制可以更細緻化",
+      "options": [
+        {
+          "key": "A",
+          "text": "產能"
+        },
+        {
+          "key": "B",
+          "text": "市場行銷"
+        },
+        {
+          "key": "C",
+          "text": "策略"
+        },
+        {
+          "key": "D",
+          "text": "廠內廠。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 183,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "下列何者是對的 (1) 不同的公司雖然在相同的產業，因其目標市場區隔不同，將會採取不同 之作業策略 (2) 在同一物料清單上的所有物料品項皆須全部採接單生產方式或全部採存貨生產方 式 (3) 競爭構面會隨著時間改變而改變",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "23"
+        },
+        {
+          "key": "C",
+          "text": "13"
+        },
+        {
+          "key": "D",
+          "text": "12。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 184,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "下列何者是對的 (1) 一公司想將商業智慧(BI)在生產規劃與控制上發揮最大的效益，IT人員 即可做到 (2) 某兩公司可能選定同一組 KPI，但因競爭構面的不同，每一 KPI的目標值亦將有所 差異 (3) 如果將一個組織或企業體看成是一有機體，雖位於生命週期的不同階段，其所選用的 KPI皆相同",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "23"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "2。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 185,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "下列何者是對的 (1) 商業智慧(BI)在生產規劃與控制上之一個挑戰，在於每一目標值的更新 與何時更新的問題 (2) 如何選定某一組適當的 KPI，為一非常專業之問題 (3) 強化了指標 A的過 程中，常常弱化了另一指標 B的表現，兩指標間 Trade-Offs是管理者面對的另一挑戰",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "23"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "2。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 186,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "生產工單有哪些控制資訊可供商業智慧(BI)進一步分析 (1) 生產/組裝控制資訊 (2) 排程控制 資訊 (3) 產能規劃控制資訊 (4) 成本控制資訊 (5) 進料控制資訊",
+      "options": [
+        {
+          "key": "A",
+          "text": "1235"
+        },
+        {
+          "key": "B",
+          "text": "2345"
+        },
+        {
+          "key": "C",
+          "text": "1234"
+        },
+        {
+          "key": "D",
+          "text": "1345。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 187,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "生產控制部門主要負責的工作項目有 (1) 協調銷售部門的接單 (2) 適當限制銷售部門隨意進 行生產計劃的變更、緊急加單或取消工單 (3) 根據產能負荷分析資料，制定合理完善的生產計 劃，使生產工單的執行、生產計劃的變更有彈性 (4) 準確控制生產進度，並對物料負責人員監督 其備料的進度 (5) 當生產進度落後時，能及時與有關部門商量對策，協商解決辦法，採取行動加 以補救",
+      "options": [
+        {
+          "key": "A",
+          "text": "12345"
+        },
+        {
+          "key": "B",
+          "text": "2345"
+        },
+        {
+          "key": "C",
+          "text": "1234"
+        },
+        {
+          "key": "D",
+          "text": "1345。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 188,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "下列何者屬於 Off-Line之單元時間，亦即一般上是不占用作業所用到工作中心的時間 (1) 籌 置 (2) 處理 (3) 等候 (4) 等待 (5) 移動",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "135"
+        },
+        {
+          "key": "D",
+          "text": "345。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 189,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "無論如何進行規劃與排程之最優化動作，下列何者之加總值即為其下限值(Lower Bound)，無 法低於此一值，亦即無論如何運用 ERP 系統或供應鏈系統所提供之演算法來壓縮時間，皆不可能 低於此一下限值 (1) 籌置 (2) 處理 (3) 拆卸 (4) 等待 (5)移動",
+      "options": [
+        {
+          "key": "A",
+          "text": "345"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "135"
+        },
+        {
+          "key": "D",
+          "text": "123。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 190,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "工單之實際執行時間指執行此工單的所有作業之何單元之加總 (1) 等待 (2) 處理 (3) 拆卸 (4) 籌置 (5) 移動",
+      "options": [
+        {
+          "key": "A",
+          "text": "345"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "134"
+        },
+        {
+          "key": "D",
+          "text": "123。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 191,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "下列何指標在評估某一特定作業是否有加速或延誤生產時間上特別有用",
+      "options": [
+        {
+          "key": "A",
+          "text": "平均工單完工時間偏差"
+        },
+        {
+          "key": "B",
+          "text": "作業實際前置時間與目標前置時間比值"
+        },
+        {
+          "key": "C",
+          "text": "作業相對目標與實際排程平均偏差"
+        },
+        {
+          "key": "D",
+          "text": "實際數量偏差百分比。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 192,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "下列何指標在分析工作中心所接受的數量中有多少比率最後有被確認",
+      "options": [
+        {
+          "key": "A",
+          "text": "平均工單完工時間偏差"
+        },
+        {
+          "key": "B",
+          "text": "作業實際前置時間與目標前置時間比值"
+        },
+        {
+          "key": "C",
+          "text": "作業相對目標與實際排程平均偏差"
+        },
+        {
+          "key": "D",
+          "text": "實際數量偏差百分比。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 193,
+      "chapterId": 9,
+      "chapterTitle": "商業智慧——生產規劃與控制",
+      "stem": "下列指標與策略間關係之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "以作業及工作中心角度分析指標表示工作生產中心產生效率的目標值，一般為正值"
+        },
+        {
+          "key": "B",
+          "text": "生產計畫彈性顯示一家公司願意接受急件單的程度，如果越高代表越願意接受急件單"
+        },
+        {
+          "key": "C",
+          "text": "目標產能利用率越高時，會削弱彈性調整產能的能力"
+        },
+        {
+          "key": "D",
+          "text": "以物料耗用層面分析的發料數量偏差百分比----調整後指標來反應考慮報廢率下備料之正確 性，指標小於 100％時表示多備料的情形發生，不利成本競爭。 第 10 章 人力資源關鍵績效指標-26題"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 194,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "運用人力資源商業智慧(BI)進行決策可以",
+      "options": [
+        {
+          "key": "A",
+          "text": "經常交由資淺員工執行"
+        },
+        {
+          "key": "B",
+          "text": "資訊蒐集時間占很大比重"
+        },
+        {
+          "key": "C",
+          "text": "決策時間比重增加"
+        },
+        {
+          "key": "D",
+          "text": "無法釐清與分割資訊蒐集與決策間的時間。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 195,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "下列哪一個面向指標在平衡計分卡(Balanced Scorecard, BSC)績效管理系統中屬於落後指標",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務指標"
+        },
+        {
+          "key": "B",
+          "text": "客戶指標"
+        },
+        {
+          "key": "C",
+          "text": "內部流程指標"
+        },
+        {
+          "key": "D",
+          "text": "學習成長指標。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 196,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "平衡計分卡(Balanced Scorecard, BSC)績效管理系統中，屬於內部流程績效指標的是",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務面向"
+        },
+        {
+          "key": "B",
+          "text": "客戶面向"
+        },
+        {
+          "key": "C",
+          "text": "學習與成長"
+        },
+        {
+          "key": "D",
+          "text": "供應商面向。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 197,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "在設計平衡計分卡(Balanced Scorecard, BSC)各個面向指標前，通常會先進行甚麼規劃",
+      "options": [
+        {
+          "key": "A",
+          "text": "績效面談"
+        },
+        {
+          "key": "B",
+          "text": "策略地圖"
+        },
+        {
+          "key": "C",
+          "text": "年度預算"
+        },
+        {
+          "key": "D",
+          "text": "行動計畫。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 198,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "將人力資源績效與組織策略銜接，是將人力資源績效指標建立在",
+      "options": [
+        {
+          "key": "A",
+          "text": "作業層次"
+        },
+        {
+          "key": "B",
+          "text": "策略層次"
+        },
+        {
+          "key": "C",
+          "text": "溝通層次"
+        },
+        {
+          "key": "D",
+          "text": "客服層次。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 199,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "下列哪一個是人力資源績效指標可呈現的方式",
+      "options": [
+        {
+          "key": "A",
+          "text": "數字"
+        },
+        {
+          "key": "B",
+          "text": "符號"
+        },
+        {
+          "key": "C",
+          "text": "文字"
+        },
+        {
+          "key": "D",
+          "text": "以上皆是。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 200,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "在平衡計分卡(Balanced Scorecard, BSC)績效管理系統中，人力資源績效指標通常歸屬於哪一 個面向",
+      "options": [
+        {
+          "key": "A",
+          "text": "財務面向"
+        },
+        {
+          "key": "B",
+          "text": "客戶面向"
+        },
+        {
+          "key": "C",
+          "text": "內部流程面向"
+        },
+        {
+          "key": "D",
+          "text": "學習與成長面向。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 201,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "在平衡計分卡(Balanced Scorecard, BSC)系統中，學習與成長面向通常不包含下列哪一個子面 向",
+      "options": [
+        {
+          "key": "A",
+          "text": "資訊基礎設施"
+        },
+        {
+          "key": "B",
+          "text": "組織與法令"
+        },
+        {
+          "key": "C",
+          "text": "客戶滿意度"
+        },
+        {
+          "key": "D",
+          "text": "人力資源。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 202,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "運用策略地圖來設計規劃人力資源績效指標的用途在於",
+      "options": [
+        {
+          "key": "A",
+          "text": "能夠策略聚焦，讓指標能夠銜接組織策略"
+        },
+        {
+          "key": "B",
+          "text": "人力資源可以有效分散配置"
+        },
+        {
+          "key": "C",
+          "text": "開發組織有限人力"
+        },
+        {
+          "key": "D",
+          "text": "提升士氣。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 203,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "人力資源績效指標「員工工作士氣」的特性不屬於",
+      "options": [
+        {
+          "key": "A",
+          "text": "量化指標"
+        },
+        {
+          "key": "B",
+          "text": "整體人力資源運用效能"
+        },
+        {
+          "key": "C",
+          "text": "結果導向指標"
+        },
+        {
+          "key": "D",
+          "text": "質化指標。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 204,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "人力資源績效指標「流動率」的特性不屬於",
+      "options": [
+        {
+          "key": "A",
+          "text": "量化指標"
+        },
+        {
+          "key": "B",
+          "text": "整體人力資源運用效能"
+        },
+        {
+          "key": "C",
+          "text": "質化指標"
+        },
+        {
+          "key": "D",
+          "text": "過程導向指標。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 205,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "人力資源績效指標「雇用一位新進人員的成本」的特性屬於人力資源體系中的",
+      "options": [
+        {
+          "key": "A",
+          "text": "人力確保"
+        },
+        {
+          "key": "B",
+          "text": "人力開發"
+        },
+        {
+          "key": "C",
+          "text": "人力報償"
+        },
+        {
+          "key": "D",
+          "text": "人力維持。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 206,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "人力資源績效指標「人員補缺平均工作天數」可以用人力資源哪一項的效率來表現",
+      "options": [
+        {
+          "key": "A",
+          "text": "招募與任用"
+        },
+        {
+          "key": "B",
+          "text": "績效管理"
+        },
+        {
+          "key": "C",
+          "text": "訓練發展"
+        },
+        {
+          "key": "D",
+          "text": "薪資福利。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 207,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "人力資源績效指標在運用在改善績效時，最應注意下列那一項",
+      "options": [
+        {
+          "key": "A",
+          "text": "指標定義"
+        },
+        {
+          "key": "B",
+          "text": "計算公式"
+        },
+        {
+          "key": "C",
+          "text": "資料蒐集"
+        },
+        {
+          "key": "D",
+          "text": "管理上之意涵。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 208,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "人力資源績效指標在運用時，應注意事項中下列哪一個不是應有的觀念",
+      "options": [
+        {
+          "key": "A",
+          "text": "兼顧評估之目的與影響目的的結果"
+        },
+        {
+          "key": "B",
+          "text": "兼顧整體與個別人力資源效能"
+        },
+        {
+          "key": "C",
+          "text": "兼顧量化與質化指標"
+        },
+        {
+          "key": "D",
+          "text": "任何指標都無須在意是否有任何管理上的意涵。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 209,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "人力資源商業智慧(BI)不能夠達到下列那一項目標",
+      "options": [
+        {
+          "key": "A",
+          "text": "改變資訊蒐集與進行決策在整體時間中所占的比例"
+        },
+        {
+          "key": "B",
+          "text": "讓人力資源管理之智慧展現更具主動性"
+        },
+        {
+          "key": "C",
+          "text": "瞭解人力資源分析、規劃並取得相關資料分析績效指標"
+        },
+        {
+          "key": "D",
+          "text": "深化資料分析技術有助於提升人力資源管理決策品質。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 210,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "下列關於人力資源商業智慧(BI)之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "人力資源商業智慧(BI)之所以能夠強化企業對問題的反映及解決的能力，主要是透過資訊系統 對管理行為的影響"
+        },
+        {
+          "key": "B",
+          "text": "人力資源商業智慧(BI)的展現主要是透過資訊系統計算取得人力資源績效指標"
+        },
+        {
+          "key": "C",
+          "text": "人力資源商業智慧(BI)分析所產生的報表分為罐裝式報表(Canned Or Prepackaged Report)及即時 式報表(Ad-Hoc Report)"
+        },
+        {
+          "key": "D",
+          "text": "人力資源商業技術的提供是希望這項服務能夠向下探查，幫助分析師對管理作業做出決策。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 211,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "平衡計分卡(Balanced Scorecard, BSC)基礎理論是將組織績效分為財務、客戶、流程、學習與 成長構面，以下關於四個構面之敘述何者正確 (1) 財物指標方面企業應針對其所處之組織生命週 期不同階段做出不同的財務策略 (2) 在顧客指標構面中，企業應先找出資源與策略區隔，將顧客 構面的關鍵指標結合目標市場及目標策略，幫助企業先找出人力運用的衡量指標 (3) 內部流程構 面為滿足股東及顧客的期望，企業必須確認其創造顧客價值的企業流程，將有限的資源進行有效的 運用 (4) 及學習指標構面而言，企業應強調對未來投資的重要性，包括人力、資訊及組織",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "134"
+        },
+        {
+          "key": "D",
+          "text": "1234。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 212,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "下列人力資源績效指標之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "員工每人平均獲利(Profit Per Employee)被定義為每位員工的銷售淨利，只有部分員工納入計算"
+        },
+        {
+          "key": "B",
+          "text": "職缺填補所需時間(Average Time Taken To Fill A Job Vacancy)指標主要是反應企業招聘人員的績 效，可以讓人力資源招聘的主管瞭解企業平均需要花費多少時間填補一個職缺"
+        },
+        {
+          "key": "C",
+          "text": "每位員工的平均訓練時數(AverageTtraining Hours Per Employee)意指企業組織花在員工訓練活 動的平均時數"
+        },
+        {
+          "key": "D",
+          "text": "關鍵員工的留任率(Key Personal Retention Rate)指標意味著這些關鍵員工對於組織的滿意度及 願意持續對組織有所貢獻。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 213,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "下列關於人力資源商業智慧系統之敘述何者有誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "能夠大幅縮短資訊蒐集的時間，藉以提升決策品質"
+        },
+        {
+          "key": "B",
+          "text": "不能定義使用者需要得到通知的例外事件規則"
+        },
+        {
+          "key": "C",
+          "text": "能夠讓使用者選擇是否要收到警訊"
+        },
+        {
+          "key": "D",
+          "text": "能夠在事件發生時提供警示，提醒企業主管即時決策，採取行動。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 214,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "下列何者不是平衡計分卡系統中關鍵績效指標的建立之意義",
+      "options": [
+        {
+          "key": "A",
+          "text": "策略目標建立必須包括財務與非財務指標及外部與內部指標"
+        },
+        {
+          "key": "B",
+          "text": "策略規劃必須兼顧企業長期與短期指標"
+        },
+        {
+          "key": "C",
+          "text": "策略執行必須區別領先指標與落後指標"
+        },
+        {
+          "key": "D",
+          "text": "策略作業必須兼顧前置及目標前置時間。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 215,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "下列人力資源績效指標之解釋之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "員工每人平均獲利之定義為每位員工的營業利潤"
+        },
+        {
+          "key": "B",
+          "text": "內部員工調轉率指企業花在員工訓練活動的平均時數"
+        },
+        {
+          "key": "C",
+          "text": "關鍵員工留任率為一段時間內，企業內部關鍵員工的留任率"
+        },
+        {
+          "key": "D",
+          "text": "職缺填補所需時間為一家公司從產生一個職缺到完成雇用程序平均所花的時間。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 216,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "企業之職缺填補所需時間若高於產業平均標準，對於企業將產生哪些不利影響 (1) 企業關鍵 性技術人才短缺時間過長將造成企業喪失競爭力 (2) 部門重要職缺懸宕過久將造成專案無法如期 推動 (3) 個別員工長期職缺未補將造成其他需要額外工作負擔的員工造成壓力，降低工作品質 (4) 對於管理階層而言，將造成計畫與任務的績效成長",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "234"
+        },
+        {
+          "key": "C",
+          "text": "134"
+        },
+        {
+          "key": "D",
+          "text": "124。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 217,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "根據招募、甄選與任用流程觀點，了解到人力資源資訊系統(HRIS)的最核心部分的工作可能 是下列哪一選項",
+      "options": [
+        {
+          "key": "A",
+          "text": "人事行政"
+        },
+        {
+          "key": "B",
+          "text": "資訊系統開發"
+        },
+        {
+          "key": "C",
+          "text": "呆廢料處理"
+        },
+        {
+          "key": "D",
+          "text": "雲端資料中心建構。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 218,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "在人力資源績效指標中，填補職缺平均天數 = 填補職缺所花的總天數 / 雇用員工的人數， 關於此指標的說明下列何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "填補職缺平均天數或時間，指的是一家企業從產生一個職缺到完成雇用程序所花的時間"
+        },
+        {
+          "key": "B",
+          "text": "該指標反映企業招聘人員的績效"
+        },
+        {
+          "key": "C",
+          "text": "一家公司填補職缺所花的總天數如果預設固定天數，當完成雇用員工的人數越多，則此指標值 越小，表示招聘人員的績效越好"
+        },
+        {
+          "key": "D",
+          "text": "一家公司填補職缺所花的總天數如果預設固定天數，當完成雇用員工的人數越多，則此指標值 越大，表示招聘人員的績效越好。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 219,
+      "chapterId": 10,
+      "chapterTitle": "人力資源關鍵績效指標",
+      "stem": "在人力資源績效指標中，每位員工的平均訓練時數 = 所有員工訓練總時數 / 員工總數，關 於此指標的說明下列何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "訓練課程只包含專業訓練時數的計算，其餘課程不含在內，例如時間管理的軟性課技能課程"
+        },
+        {
+          "key": "B",
+          "text": "該指標意指企業組織花在員工訓練活動的平均時數"
+        },
+        {
+          "key": "C",
+          "text": "如果員工總數固定，則所有員工訓練總時數越多，表示企業組織花在員工價值開發所做的投資 越大"
+        },
+        {
+          "key": "D",
+          "text": "如果員工總數固定，則所有員工訓練總時數越少，表示企業組織花在員工價值開發所做的投資 越小。 第 11 章 商業智慧對於企業的效益-13題"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 220,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "下列何者是在進行BI成效分析時的一次性的有形成本",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料儲存成本"
+        },
+        {
+          "key": "B",
+          "text": "增加銷貨收入"
+        },
+        {
+          "key": "C",
+          "text": "BI系統的購置"
+        },
+        {
+          "key": "D",
+          "text": "人員對新系統的適應。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 221,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "請排序出下列有關建立 BI專案目標及衡量 BI成效方式的部分步驟 (1) 建立適當的度量方法 (2) 與BI專案的關鍵人員建立共識 (3) 設定達成目標的期限 (4) 了解BI建置專案對企業的影響",
+      "options": [
+        {
+          "key": "A",
+          "text": "4132"
+        },
+        {
+          "key": "B",
+          "text": "1342"
+        },
+        {
+          "key": "C",
+          "text": "2413"
+        },
+        {
+          "key": "D",
+          "text": "2134。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 222,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "平衡計分卡(Balanced Scorecard, BSC)常用來衡量 BI對企業的整體效益，但其可能因下列何 種原因而失效",
+      "options": [
+        {
+          "key": "A",
+          "text": "度量方式可能因某種程度的量化本色而定義不正確"
+        },
+        {
+          "key": "B",
+          "text": "過度依賴工具操作，使得員工喪失計算能力"
+        },
+        {
+          "key": "C",
+          "text": "改善的結果往往落於操作層次，並沒有與高層次的目標具一較系統性的對應方式"
+        },
+        {
+          "key": "D",
+          "text": "企業主對於 BI的不支持。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 223,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "下列何者不是作為衡量 BI成效的方式",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用者數"
+        },
+        {
+          "key": "B",
+          "text": "投資報酬率"
+        },
+        {
+          "key": "C",
+          "text": "BI系統連線數"
+        },
+        {
+          "key": "D",
+          "text": "企業投注在 BI的花費。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 224,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "「企業除了使用 MS EXCEL之外，是否進一步使用其統計分析」以上是屬於何項 BI成效的 評估內容",
+      "options": [
+        {
+          "key": "A",
+          "text": "系統連線數"
+        },
+        {
+          "key": "B",
+          "text": "BI應用程式數"
+        },
+        {
+          "key": "C",
+          "text": "使用者數"
+        },
+        {
+          "key": "D",
+          "text": "平衡計分卡(Balanced Scorecard, BSC)。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 225,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "對於影響BI成效的因素中，下列何者屬於人員方面 (1) 使用者專業素養 (2) 老闆的抗拒 (3) BI顧問的關懷 (4) 員工統計能力不足 (5) 客戶的專業素養",
+      "options": [
+        {
+          "key": "A",
+          "text": "1345"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "13"
+        },
+        {
+          "key": "D",
+          "text": "12345。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 226,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "在測量 BI使用者數時，下列何者是正確的描述",
+      "options": [
+        {
+          "key": "A",
+          "text": "基於智財權，繞道進來 BI系統的使用者不應納入使用者數"
+        },
+        {
+          "key": "B",
+          "text": "對於無登入 BI系統者(例如將 BI執行結果匯出給其他人使用時)，不應納入使用者數"
+        },
+        {
+          "key": "C",
+          "text": "甲公司購買3個BI的使用者帳號，且公司 100名員工中會有 50位員工輪流使用這 3個帳號， 則BI的使用率為0.5"
+        },
+        {
+          "key": "D",
+          "text": "系統連線次數通常會低估了 BI的使用情況。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 227,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "「雖然企業有BI，但我們公司主管們還是習慣以直覺來作決策」以上是有關影響 BI成效因 素中的",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料因素"
+        },
+        {
+          "key": "B",
+          "text": "流程因素"
+        },
+        {
+          "key": "C",
+          "text": "組織文化因素"
+        },
+        {
+          "key": "D",
+          "text": "制度化因素。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 228,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "下列何項不屬於 BI作業特徵化的項目",
+      "options": [
+        {
+          "key": "A",
+          "text": "程序目的"
+        },
+        {
+          "key": "B",
+          "text": "能力度等級"
+        },
+        {
+          "key": "C",
+          "text": "執行角色"
+        },
+        {
+          "key": "D",
+          "text": "操作步驟。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 229,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "運用投資報酬率(ROI)來評估 BI成效的步驟中，不包含下列那一項目",
+      "options": [
+        {
+          "key": "A",
+          "text": "確認 BI專案目標"
+        },
+        {
+          "key": "B",
+          "text": "專案一致化"
+        },
+        {
+          "key": "C",
+          "text": "進行成本效益分析"
+        },
+        {
+          "key": "D",
+          "text": "辨識成本及收益項目。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 230,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "下列關於企業的投資報酬分析(ROI)之敘述何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "為 BI衡量成效的衡量方法之一"
+        },
+        {
+          "key": "B",
+          "text": "ROI主要考量企業因 BI系統或技術的建置所花費的投資成本與因這樣的系統而帶來的效益作 一比較"
+        },
+        {
+          "key": "C",
+          "text": "ROI ＝ (折現值 ÷ 投資成本) × 100％"
+        },
+        {
+          "key": "D",
+          "text": "利用ROI來評估 BI成效的步驟為：開始 → 確認 BI專案目標 → 辨識成本及收益項目 → 進行成本效益分析 → 計算 ROI → 結束。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 231,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "下列何者不是以量化方式了解建置 BI所期望的組織價值之具體項目",
+      "options": [
+        {
+          "key": "A",
+          "text": "Better? 通常是指品質變得更好、客戶更滿意等"
+        },
+        {
+          "key": "B",
+          "text": "Faster?通常是指效率的提升"
+        },
+        {
+          "key": "C",
+          "text": "Cheaper?通常指的是成本降低"
+        },
+        {
+          "key": "D",
+          "text": "Get more?通常指的是得到更多。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 232,
+      "chapterId": 11,
+      "chapterTitle": "商業智慧對於企業的效益",
+      "stem": "下列何者不是專案管理所說設定達成目標(Measurable Organizational Value, MOV)可能會使用 到的單位",
+      "options": [
+        {
+          "key": "A",
+          "text": "名次"
+        },
+        {
+          "key": "B",
+          "text": "時間"
+        },
+        {
+          "key": "C",
+          "text": "百分比"
+        },
+        {
+          "key": "D",
+          "text": "個數。 第 12 章 大數據集群分析介紹-5題"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 233,
+      "chapterId": 12,
+      "chapterTitle": "大數據集群分析介紹",
+      "stem": "K-means 的執行程序基本上包括五個步驟，在步驟二為隨機選取中心點，下列觀念何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "中心點數量必須等於 K 值大小"
+        },
+        {
+          "key": "B",
+          "text": "在資料點的範圍內隨意選取 K個中心點"
+        },
+        {
+          "key": "C",
+          "text": "在資料點的範圍內隨意選取(K+1)個中心點"
+        },
+        {
+          "key": "D",
+          "text": "在資料點的範圍內隨意選取 K個中心點，做為第一個疊代之初始中心點。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 234,
+      "chapterId": 12,
+      "chapterTitle": "大數據集群分析介紹",
+      "stem": "針對K-平均集群分析法(K-means Clustering)的觀念下列何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "是一個經典的集群分析方法"
+        },
+        {
+          "key": "B",
+          "text": "包括了五個步驟，包括設定 K值、隨機選取中心點、計算距離並計算集群分配、中心點調整 以及確認集群收斂狀況"
+        },
+        {
+          "key": "C",
+          "text": "不斷地疊代進行重複計算直到各個集群的中心點確立不變為止"
+        },
+        {
+          "key": "D",
+          "text": "K值只能設定為資料量的一半。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 235,
+      "chapterId": 12,
+      "chapterTitle": "大數據集群分析介紹",
+      "stem": "以K-means 進行集群分析時，K值是指",
+      "options": [
+        {
+          "key": "A",
+          "text": "樣本數"
+        },
+        {
+          "key": "B",
+          "text": "集群距離"
+        },
+        {
+          "key": "C",
+          "text": "集群數"
+        },
+        {
+          "key": "D",
+          "text": "相似度。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 236,
+      "chapterId": 12,
+      "chapterTitle": "大數據集群分析介紹",
+      "stem": "以下為 KDD 的7個程序 (1) 解釋與評估 (2) 資料的前處理 (3) 建立目標資料集 (4) 資料的 轉換 (5) 採取行動 (6) 訂定目標 (7) 資料探勘，請選出正確順序",
+      "options": [
+        {
+          "key": "A",
+          "text": "1234567"
+        },
+        {
+          "key": "B",
+          "text": "6324715"
+        },
+        {
+          "key": "C",
+          "text": "6342517"
+        },
+        {
+          "key": "D",
+          "text": "6342175。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 237,
+      "chapterId": 12,
+      "chapterTitle": "大數據集群分析介紹",
+      "stem": "K-means 的執行程序基本上包括五個步驟 (1) 選取中心點 (2) 計算距離與集群分配 (3) 確認 集群收斂狀況 (4) 設定K值 (5) 中心點調整，請選出正確順序",
+      "options": [
+        {
+          "key": "A",
+          "text": "12345"
+        },
+        {
+          "key": "B",
+          "text": "42315"
+        },
+        {
+          "key": "C",
+          "text": "14325"
+        },
+        {
+          "key": "D",
+          "text": "41235。 第 13 章 分類技術-8題"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 238,
+      "chapterId": 13,
+      "chapterTitle": "分類技術",
+      "stem": "下列哪一個是分類技術的學習演算法",
+      "options": [
+        {
+          "key": "A",
+          "text": "決策樹"
+        },
+        {
+          "key": "B",
+          "text": "Apriori 演算法"
+        },
+        {
+          "key": "C",
+          "text": "k平均法"
+        },
+        {
+          "key": "D",
+          "text": "線性迴歸。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 239,
+      "chapterId": 13,
+      "chapterTitle": "分類技術",
+      "stem": "下列哪一個資料探勘的應用不屬於分類技術",
+      "options": [
+        {
+          "key": "A",
+          "text": "判別電子郵件是否為垃圾郵件"
+        },
+        {
+          "key": "B",
+          "text": "判別信用卡客戶是否為如期還款"
+        },
+        {
+          "key": "C",
+          "text": "判別哪些商品常常被一起購買"
+        },
+        {
+          "key": "D",
+          "text": "判別X光片的細胞是否異常。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 240,
+      "chapterId": 13,
+      "chapterTitle": "分類技術",
+      "stem": "在分類技術中，若需要建立分類模型通常會把資料分割成訓練資料和測試資料，請問目的為 何",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以利用訓練資料和測試資料建立不同的分類模型"
+        },
+        {
+          "key": "B",
+          "text": "使用訓練資料建立的多個分類模型可以利用測試資料評估優劣"
+        },
+        {
+          "key": "C",
+          "text": "分類學習演算法需要兩份資料才能建立分類模型"
+        },
+        {
+          "key": "D",
+          "text": "測試資料可以驗證訓練資料是否有問題。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 241,
+      "chapterId": 13,
+      "chapterTitle": "分類技術",
+      "stem": "已知類別A的屬性為(3,4)，類別B的屬性為(5,6)，根據K最鄰近法的類別判別方式並利用 歐式距離當作距離衡量指標，請問屬性(1,2)的資料應該屬於哪一個類別",
+      "options": [
+        {
+          "key": "A",
+          "text": "類別 A"
+        },
+        {
+          "key": "B",
+          "text": "類別 B"
+        },
+        {
+          "key": "C",
+          "text": "到類別A和類別 B 距離一樣，所以兩個類別皆對"
+        },
+        {
+          "key": "D",
+          "text": "到類別A和類別 B距離一樣，所以無法判斷。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 242,
+      "chapterId": 13,
+      "chapterTitle": "分類技術",
+      "stem": "K最鄰近法的特點不包含下列哪項",
+      "options": [
+        {
+          "key": "A",
+          "text": "不需要事先建立分類模型"
+        },
+        {
+          "key": "B",
+          "text": "學習演算法的運算成本過高"
+        },
+        {
+          "key": "C",
+          "text": "可以避免類別分布不平衡的問題"
+        },
+        {
+          "key": "D",
+          "text": "K值的決定不會影響結果。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 243,
+      "chapterId": 13,
+      "chapterTitle": "分類技術",
+      "stem": "建立決策樹的分類模型需要衡量亂度，請問下列哪一個為亂度的衡量指標",
+      "options": [
+        {
+          "key": "A",
+          "text": "歐氏距離"
+        },
+        {
+          "key": "B",
+          "text": "熵(Entropy)"
+        },
+        {
+          "key": "C",
+          "text": "支持度(Support)"
+        },
+        {
+          "key": "D",
+          "text": "精確度(Precision)。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 244,
+      "chapterId": 13,
+      "chapterTitle": "分類技術",
+      "stem": "下列哪一個不是決策樹停止繼續分割的條件",
+      "options": [
+        {
+          "key": "A",
+          "text": "分割內都是同一個類別"
+        },
+        {
+          "key": "B",
+          "text": "分割內的屬性值皆一樣"
+        },
+        {
+          "key": "C",
+          "text": "分割內的每個類別個數都一樣"
+        },
+        {
+          "key": "D",
+          "text": "分割內有子樹是空的。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 245,
+      "chapterId": 13,
+      "chapterTitle": "分類技術",
+      "stem": "下列哪一個不是決策樹的特點",
+      "options": [
+        {
+          "key": "A",
+          "text": "決策樹的建置對資料的分配沒有要求"
+        },
+        {
+          "key": "B",
+          "text": "決策樹的建置成本低、建置速度快"
+        },
+        {
+          "key": "C",
+          "text": "小型的決策樹容易對模型進行解釋"
+        },
+        {
+          "key": "D",
+          "text": "亂度的測量指標影響很大，需依據資料選擇。 第 14 章 關聯規則-15題"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 246,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "下列哪一個選項是經由自動或半自動的方法尋找及分析大量的資料，以建立有效模式 (Pattern)及規則(Rule)的方法",
+      "options": [
+        {
+          "key": "A",
+          "text": "資料探勘"
+        },
+        {
+          "key": "B",
+          "text": "資料庫"
+        },
+        {
+          "key": "C",
+          "text": "系統分析"
+        },
+        {
+          "key": "D",
+          "text": "程式設計。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 247,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "下列哪一個選項是資料探勘領域中一個重要議題，其基本概念為從大量交易資料中挖掘出項 目(Item)之間價值的相關性，探索資料項目之間彼此蘊含的關係",
+      "options": [
+        {
+          "key": "A",
+          "text": "分類法"
+        },
+        {
+          "key": "B",
+          "text": "關聯規則"
+        },
+        {
+          "key": "C",
+          "text": "集群法"
+        },
+        {
+          "key": "D",
+          "text": "類神經網路。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 248,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "資料探勘領域技術中所考量的是其品項的組合性，但是並不考慮品項在不同時間出現的次序 性是下列哪一選項",
+      "options": [
+        {
+          "key": "A",
+          "text": "分類法"
+        },
+        {
+          "key": "B",
+          "text": "集群法"
+        },
+        {
+          "key": "C",
+          "text": "SQL查詢"
+        },
+        {
+          "key": "D",
+          "text": "關聯規則。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 249,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "「尿布(Diaper)」與「啤酒(Beer)」的故事是行銷界的經典神話，是屬於下列哪一種資料探勘 領域技術的應用",
+      "options": [
+        {
+          "key": "A",
+          "text": "集群法"
+        },
+        {
+          "key": "B",
+          "text": "類神經網路"
+        },
+        {
+          "key": "C",
+          "text": "關聯規則"
+        },
+        {
+          "key": "D",
+          "text": "OLAP & Cube查詢。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 250,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "在使用關聯規則方法時頻繁項目集(Frequent Itemset)觀念甚為重要，Frequent 又可稱為",
+      "options": [
+        {
+          "key": "A",
+          "text": "Small"
+        },
+        {
+          "key": "B",
+          "text": "Large"
+        },
+        {
+          "key": "C",
+          "text": "Middle"
+        },
+        {
+          "key": "D",
+          "text": "Big。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 251,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "在零售產業應用中比較常聽到的購物籃分析(Market Basket Analysis, MBA)，是屬於下列哪一 種技術的",
+      "options": [
+        {
+          "key": "A",
+          "text": "集群法"
+        },
+        {
+          "key": "B",
+          "text": "類神經網路"
+        },
+        {
+          "key": "C",
+          "text": "關聯規則"
+        },
+        {
+          "key": "D",
+          "text": "貝氏分類法。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 252,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "LOWS 零售店所有曾經賣過的商品項目的數量有 3種(X, Y, Z)，則這3種項目可能組合所產 生的 Itemset 的數量等於7，包含有 X, Y, Z, XY, XZ, YZ, XYZ七種組合，假設某一零售店所有曾經 賣過的商品項目的數量為 N，則這N個項目可能組合所產生的 Itemset 的數量為",
+      "options": [
+        {
+          "key": "A",
+          "text": "(2N)-1"
+        },
+        {
+          "key": "B",
+          "text": "3*N"
+        },
+        {
+          "key": "C",
+          "text": "(eN)-1"
+        },
+        {
+          "key": "D",
+          "text": "(N2)-5。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 253,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "在關聯規則分析時，如果場景是一個零售超市，某項目集 W 出現在幾台購物車中的觀念是 指",
+      "options": [
+        {
+          "key": "A",
+          "text": "支持度"
+        },
+        {
+          "key": "B",
+          "text": "信賴度"
+        },
+        {
+          "key": "C",
+          "text": "支持數量"
+        },
+        {
+          "key": "D",
+          "text": "提升度。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 254,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "在關聯規則分析時，如果想了解某項目集 Z出現的次數占總交易資料庫的比例有多少，則可 以透過下列哪一選項求出",
+      "options": [
+        {
+          "key": "A",
+          "text": "提升度"
+        },
+        {
+          "key": "B",
+          "text": "信賴度"
+        },
+        {
+          "key": "C",
+          "text": "支持數量"
+        },
+        {
+          "key": "D",
+          "text": "支持度。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 255,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "當進行關聯規則分析時，交易資料庫中所有可能的 Itemset 都可以透過查詢比對交易資料庫 而求算出其支持數量σ與支持度 s 兩項資訊，並提供做為後續產生關聯規則的基礎，下列有關於支 持數量σ與支持度 s 的觀念何者錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "支持數量σ與支持度 s 的管理意涵是相同的"
+        },
+        {
+          "key": "B",
+          "text": "支持數量σ與支持度 s 的管理意涵是不同的"
+        },
+        {
+          "key": "C",
+          "text": "支持數量σ與支持度s 的差別就在支持數量σ是以數量表示"
+        },
+        {
+          "key": "D",
+          "text": "支持數量σ與支持度 s 的差別就在支持度 s 是以比例來表示。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 256,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "有一個關聯規則 R1：X⇒Y[s,c,Lift]，下列哪一觀念正確",
+      "options": [
+        {
+          "key": "A",
+          "text": "Y稱為關聯規則R1 的後繼項目集"
+        },
+        {
+          "key": "B",
+          "text": "Y稱為關聯規則R1 的前導項目集"
+        },
+        {
+          "key": "C",
+          "text": "s 稱為關聯規則R1的後繼項目集"
+        },
+        {
+          "key": "D",
+          "text": "Lift 稱為關聯規則 R1的前導項目集。"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 257,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "有一個關聯規則R2：W⇒Z[s,c,Lift]已經被認定為有趣的強關聯規則，下列哪一觀念錯誤",
+      "options": [
+        {
+          "key": "A",
+          "text": "s 必須大於等於最小支持度(minsup)值"
+        },
+        {
+          "key": "B",
+          "text": "c必須大於等於最小信賴度(minconf)值"
+        },
+        {
+          "key": "C",
+          "text": "Lift 值必須等於0"
+        },
+        {
+          "key": "D",
+          "text": "Lift 值必須大於1。"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 258,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "下列選項中哪一個是關聯規則探勘中找出頻繁項目集(Frequent Itemset)的方法",
+      "options": [
+        {
+          "key": "A",
+          "text": "Normalization 方法"
+        },
+        {
+          "key": "B",
+          "text": "ER Model 方法"
+        },
+        {
+          "key": "C",
+          "text": "SQL查詢"
+        },
+        {
+          "key": "D",
+          "text": "Apriori 方法。"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 259,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "在關聯規則分析中使用 Apriori 方法時必須產生各個階段的候選項目集(Itemset)，而”產生” 兩個字是指結合(Join)以及哪一個動作",
+      "options": [
+        {
+          "key": "A",
+          "text": "選擇(Select)"
+        },
+        {
+          "key": "B",
+          "text": "修剪(Prune)"
+        },
+        {
+          "key": "C",
+          "text": "授權(Grant)"
+        },
+        {
+          "key": "D",
+          "text": "插入(Insert)。"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 260,
+      "chapterId": 14,
+      "chapterTitle": "關聯規則",
+      "stem": "有一個關聯規則 R3：X⇒Y[s,c,Lift]，下列哪一選項的意涵為某一條關聯規則在預測結果時究 竟是否能比隨機發生的機會好多少倍",
+      "options": [
+        {
+          "key": "A",
+          "text": "提升度 Lift 值"
+        },
+        {
+          "key": "B",
+          "text": "支持度s 值"
+        },
+        {
+          "key": "C",
+          "text": "信賴度c值"
+        },
+        {
+          "key": "D",
+          "text": "支持數量σ值。"
+        }
+      ],
+      "answer": "A"
+    }
+  ]
+}
