@@ -1,0 +1,3 @@
+# 不上傳 Python 工具鏈，避免 Vercel 誤判為 Python 專案
+scripts/
+.venv/
