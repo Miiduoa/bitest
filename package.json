@@ -1,0 +1,8 @@
+{
+  "name": "bitest-static",
+  "private": true,
+  "description": "Static BI quiz UI; sources live in web/",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -R web/. dist/"
+  }
+}

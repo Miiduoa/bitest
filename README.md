@@ -5,14 +5,9 @@
 ## 前端靜態檔（`web/`）
 
 - **本機預覽**：於專案根目錄執行 `python3 scripts/serve.py`，再以終端機顯示之本機網址開啟（靜態根目錄為 `web/`）。
-- **Vercel（與 GitHub 連線的 `bitest` 專案）**：請到 Vercel 專案 **Settings → General**：
-  - **Framework Preset** → **Other**
-  - **Root Directory** → **`web`**（必須，否則會誤判成 Python）
-  - 若曾失敗過，請在 **Deployments** 重新 **Redeploy**。
-- **已成功之靜態預覽網址**（由 `web/` 目錄直接部署）：<https://web-one-omega-91.vercel.app>  
-  你可於 Vercel 將網域改掛到自己偏好的 Production 別名／專案。
+- **Vercel**：倉庫根目錄有 `npm run build`（將 `web/` 複製至 `dist/`），專案請用 **Framework: Other**／依 `vercel.json` 建置即可。正式域範例：**[bitest.vercel.app](https://bitest.vercel.app)**。亦可自 [GitHub](https://github.com/Miiduoa/bitest) 匯入。說明：[Vercel Import](https://vercel.com/docs/getting-started-with-vercel/import)。
 
-倉庫：<https://github.com/Miiduoa/bitest>。匯入步驟可參考 [Vercel Import 文件](https://vercel.com/docs/getting-started-with-vercel/import)。
+若曾將專案誤設為 Python Preset，請改為 **Other** 並以本倉庫根目錄建置（不必再手動設 Root Directory 為 `web`）。
 
 ## 題庫
 
