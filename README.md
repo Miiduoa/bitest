@@ -1,23 +1,28 @@
-# BI 規劃師｜刷題系統（bitest）
+# bitest｜BI regression checks
 
-中華企業資源規劃學會 BI 規劃師參考題型離線／線上練習介面。
+一個很小的資料品質檢查器，用在「昨天的報表正常，今天資料管線改了之後還正常嗎？」這種情境。
 
-## 前端靜態檔（`web/`）
+與其等 dashboard 出現怪數字才人工找問題，bitest 會先比較 baseline 與 current CSV，檢查 schema、筆數、null rate、主鍵重複與數值平均漂移，最後輸出 Markdown report，失敗時回傳非 0 exit code。
 
-- **本機預覽**：於專案根目錄執行 `python3 scripts/serve.py`，再以終端機顯示之本機網址開啟（靜態根目錄為 `web/`）。
-- **Vercel**：倉庫根目錄有 `npm run build`（將 `web/` 複製至 `dist/`），專案請用 **Framework: Other**／依 `vercel.json` 建置即可。正式域範例：**[bitest.vercel.app](https://bitest.vercel.app)**。亦可自 [GitHub](https://github.com/Miiduoa/bitest) 匯入。說明：[Vercel Import](https://vercel.com/docs/getting-started-with-vercel/import)。
-
-若曾將專案誤設為 Python Preset，請改為 **Other** 並以本倉庫根目錄建置（不必再手動設 Root Directory 為 `web`）。
-
-## 題庫
-
-題庫檔為 `web/questions.json`，可由 PDF 重新產製：
+## 快速跑
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt
-.venv/bin/python scripts/parse_bp_pdf.py /路徑/題庫.pdf
+python -m unittest discover -s tests -v
+python cli.py sample/baseline.csv sample/current.csv --key id --numeric revenue
 ```
 
-## License
+產出的 `report.md` 可以直接留在 CI artifact，或貼進 PR / issue。
 
-題庫內容請遵守原出處／學會之授權；程式碼以實際專案需求為準。
+## 預設檢查
+
+- schema 是否改變
+- row count 變動是否超過 25%
+- 各欄 null rate 是否增加超過 5 個百分點
+- 指定 key 是否出現重複
+- 指定 numeric 欄平均值是否漂移超過 20%
+
+這些門檻是示範值，不是通用標準。實際系統應依資料 grain、更新頻率與 KPI 重要程度調整。
+
+## 為什麼值得做
+
+很多資料專案只展示分析結果，但實務上「資料今天還能不能信」同樣重要。這個 repo 比較像一個最小版 data observability / regression gate：規則透明、可放 CI，也不需要先導入一整套資料平台。
